@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matrix version="1.0">
+  <categories>
+    <!-- Computer Science -->
+    <category name="Computer Science" key="cs">
+      <subcategories>
+        <subcategory name="Структуры данных">
+          <skills>
+            <skill type="hard">Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения</skill>
+            <skill type="hard">Понимание принципа работы хеш-таблиц и коллизий</skill>
+            <skill type="hard">Базовое понимание деревьев (для иерархий, индексов БД)</skill>
+            <skill type="soft">Аргументированный выбор структуры данных под задачу</skill>
+            <skill type="soft">Анализ сложности (время доступа, использование памяти)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="Алгоритмы">
+          <skills>
+            <skill type="hard">Линейный и бинарный поиск. Понимание основных сортировок</skill>
+            <skill type="hard">Понимание нотации Big O (O(1), O(n), O(log n), O(n²))</skill>
+            <skill type="soft">Оптимизационное мышление (оценка эффективности)</skill>
+            <skill type="soft">Декомпозиция задачи на алгоритмические шаги</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="Архитектура &amp; Паттерны">
+          <skills>
+            <skill type="hard">Понимание и применение принципов SOLID</skill>
+            <skill type="hard">Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)</skill>
+            <skill type="hard">Порождающие паттерны: Singleton, Builder, Prototype</skill>
+            <skill type="hard">Структурные паттерны: Adapter, Decorator, Facade</skill>
+            <skill type="hard">Поведенческие паттерны: Strategy, Command, Iterator</skill>
+            <skill type="hard">Паттерны корпоративных приложений: Unit of Work, Identity Map</skill>
+            <skill type="soft">Абстрактное мышление и применение известных шаблонов</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Язык C# и .NET -->
+    <category name="Язык C# и .NET" key="csharp">
+      <subcategories>
+        <subcategory name="Основы C#">
+          <skills>
+            <skill type="hard">Синтаксис: переменные, операторы, управляющие конструкции</skill>
+            <skill type="hard">ООП: создание классов, инкапсуляция, наследование, полиморфизм</skill>
+            <skill type="hard">Работа с исключениями (try-catch-finally, пользовательские исключения)</skill>
+            <skill type="soft">Читаемость кода (соглашения об именовании)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="Продвинутые возможности C#">
+          <skills>
+            <skill type="hard">LINQ (запросы и методы расширений)</skill>
+            <skill type="hard">Асинхронность (async/await, Task)</skill>
+            <skill type="hard">Рефлексия, атрибуты</skill>
+            <skill type="hard">Generics, ковариантность и контравариантность</skill>
+            <skill type="soft">Оптимизация (память, производительность)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="GUI (WPF / Avalonia)">
+          <skills>
+            <skill type="hard">XAML: базовая разметка, панели компоновки (StackPanel, Grid)</skill>
+            <skill type="hard">Data Binding (привязка к свойствам ViewModel, режимы)</skill>
+            <skill type="hard">Команды (ICommand, ReactiveCommand)</skill>
+            <skill type="hard">Стили, триггеры, шаблоны элементов управления</skill>
+            <skill type="hard">Навигация между окнами/страницами</skill>
+            <skill type="soft">UX-мышление и разделение логики (MVVM)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="Доступ к данным в .NET">
+          <skills>
+            <skill type="hard">ADO.NET (SqlConnection, SqlCommand, SqlDataReader)</skill>
+            <skill type="hard">Dapper (установка, Query&lt;T&gt;, Execute)</skill>
+            <skill type="hard">Entity Framework Core (DbContext, миграции, LINQ-запросы)</skill>
+            <skill type="soft">Выбор инструмента под задачу (Dapper vs EF Core)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="Тестирование">
+          <skills>
+            <skill type="hard">Написание юнит-тестов (xUnit/NUnit)</skill>
+            <skill type="hard">Использование mock-объектов (Moq, NSubstitute)</skill>
+            <skill type="hard">Интеграционное тестирование</skill>
+            <skill type="soft">TDD (разработка через тестирование)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="ASP.NET Core">
+          <skills>
+            <skill type="hard">Создание Web API (контроллеры, маршрутизация)</skill>
+            <skill type="hard">Middleware и конвейер обработки запросов</skill>
+            <skill type="hard">Внедрение зависимостей (DI)</skill>
+            <skill type="hard">Аутентификация и авторизация (JWT, Identity)</skill>
+            <skill type="hard">Работа с базами данных через EF Core в ASP.NET</skill>
+            <skill type="hard">Razor Pages / MVC</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="Документирование в C#">
+          <skills>
+            <skill type="hard">XML-комментарии для публичных API (summary, param, returns)</skill>
+            <skill type="hard">Генерация документации (DocFX)</skill>
+            <skill type="hard">Документирование REST API (Swagger/OpenAPI в ASP.NET Core)</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Базы данных: SQL & СУБД -->
+    <category name="Базы данных: SQL &amp; СУБД" key="sql">
+      <subcategories>
+        <subcategory name="Основы SQL">
+          <skills>
+            <skill type="hard">DDL (CREATE/ALTER TABLE, ключи)</skill>
+            <skill type="hard">DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)</skill>
+            <skill type="hard">Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)</skill>
+            <skill type="hard">Индексы, анализ плана запроса (EXPLAIN)</skill>
+            <skill type="soft">Мышление множествами (составление запросов)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="PostgreSQL">
+          <skills>
+            <skill type="hard">Особенности типов данных (JSONB, массивы)</skill>
+            <skill type="hard">Полнотекстовый поиск (tsvector, tsquery)</skill>
+            <skill type="hard">Расширения (PostGIS, pgcrypto)</skill>
+            <skill type="hard">Настройка производительности (VACUUM, ANALYZE)</skill>
+            <skill type="soft">Документирование схемы (комментарии к таблицам и колонкам)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="MySQL">
+          <skills>
+            <skill type="hard">Особенности хранения (InnoDB vs MyISAM)</skill>
+            <skill type="hard">Репликация и партиционирование</skill>
+            <skill type="hard">Оптимизация запросов (EXPLAIN в MySQL)</skill>
+            <skill type="soft">Документирование схемы</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="SQLite">
+          <skills>
+            <skill type="hard">Встраиваемая БД, особенности использования</skill>
+            <skill type="hard">Работа с SQLite в мобильных и десктопных приложениях</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Веб-разработка -->
+    <category name="Веб-разработка" key="web">
+      <subcategories>
+        <subcategory name="HTML/CSS">
+          <skills>
+            <skill type="hard">Семантическая вёрстка, доступность</skill>
+            <skill type="hard">Flexbox и Grid Layout</skill>
+            <skill type="hard">Адаптивная вёрстка (медиа-запросы)</skill>
+            <skill type="hard">Препроцессоры (Sass, Less)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="JavaScript">
+          <skills>
+            <skill type="hard">Основы синтаксиса, типы данных, функции</skill>
+            <skill type="hard">DOM-манипуляции и события</skill>
+            <skill type="hard">Асинхронность (Promise, async/await)</skill>
+            <skill type="hard">Fetch API и работа с REST</skill>
+            <skill type="hard">Модули (ES6 modules)</skill>
+            <skill type="hard">Документирование JavaScript (JSDoc: @param, @returns, @throws)</skill>
+            <skill type="hard">Генерация документации (JSDoc, TypeDoc для TypeScript)</skill>
+          </skills>
+        </subcategory>
+        <subcategory name="PHP">
+          <skills>
+            <skill type="hard">Основы синтаксиса, работа с формами</skill>
+            <skill type="hard">Сессии и куки</skill>
+            <skill type="hard">Подключение к БД (MySQLi, PDO)</skill>
+            <skill type="hard">Основы ООП в PHP</skill>
+            <skill type="hard">Документирование PHP (PHPDoc: @param, @return, @throws)</skill>
+            <skill type="hard">Инструменты: phpDocumentor, Doxygen</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Мобильная разработка -->
+    <category name="Мобильная разработка" key="mobile">
+      <subcategories>
+        <subcategory name="Android (Kotlin)">
+          <skills>
+            <skill type="hard">Основы языка Kotlin (синтаксис, null safety, корутины)</skill>
+            <skill type="hard">Android SDK (Activity, Fragment, жизненный цикл)</skill>
+            <skill type="hard">Jetpack Compose (composable-функции, state, модификаторы)</skill>
+            <skill type="hard">Навигация в Compose</skill>
+            <skill type="hard">Архитектурные компоненты (ViewModel, LiveData/Flow)</skill>
+            <skill type="hard">Работа с сетью (Retrofit, Kotlin Serialization)</skill>
+            <skill type="hard">Базы данных (Room)</skill>
+            <skill type="hard">DI (Dagger, Hilt)</skill>
+            <skill type="hard">Тестирование на Android</skill>
+            <skill type="hard">Документирование Kotlin (KDoc, Dokka)</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Контейнеризация -->
+    <category name="Контейнеризация" key="docker">
+      <subcategories>
+        <subcategory name="Docker">
+          <skills>
+            <skill type="hard">Основные команды (docker run, build, push)</skill>
+            <skill type="hard">Создание Dockerfile, оптимизация слоёв</skill>
+            <skill type="hard">Docker Compose (запуск многоконтейнерных приложений)</skill>
+            <skill type="hard">Сетевое взаимодействие контейнеров</skill>
+            <skill type="hard">Volumes и работа с данными</skill>
+            <skill type="soft">CI/CD интеграция (GitLab CI, GitHub Actions)</skill>
+            <skill type="soft">Документирование Docker-образов (docker inspect, labels)</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Инструменты: Git -->
+    <category name="Инструменты: Git" key="git">
+      <subcategories>
+        <subcategory name="Базовые команды">
+          <skills>
+            <skill type="hard">init, clone, add, commit, push, pull</skill>
+            <skill type="hard">Ветвление и слияние (branch, merge, разрешение конфликтов)</skill>
+            <skill type="soft">Осмысленные коммиты (понятные сообщения)</skill>
+            <skill type="soft">Командная работа (работа с общим репозиторием, pull requests)</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Взаимодействие в команде -->
+    <category name="Взаимодействие в команде" key="team">
+      <subcategories>
+        <subcategory name="Навыки коммуникации">
+          <skills>
+            <skill type="soft">Участие в код-ревью: давать конструктивную обратную связь</skill>
+            <skill type="soft">Участие в код-ревью: принимать замечания и анализировать</skill>
+            <skill type="soft">Совместная разработка в Git (ветки, мерж-реквесты)</skill>
+            <skill type="soft">Ясная устная и письменная коммуникация</skill>
+            <skill type="soft">Работа по Agile/Scrum: роли, стендапы, оценка задач</skill>
+            <skill type="soft">Менторство и обмен знаниями</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+
+    <!-- Профессиональные практики -->
+    <category name="Профессиональные практики" key="prof">
+      <subcategories>
+        <subcategory name="Общие практики">
+          <skills>
+            <skill type="hard">Отладка (точки останова, пошаговое выполнение)</skill>
+            <skill type="hard">Профилирование и оптимизация производительности</skill>
+            <skill type="soft">Проактивность (самостоятельный поиск и исправление ошибок)</skill>
+            <skill type="soft">Восприятие обратной связи и работа над собой</skill>
+            <skill type="soft">Документирование кода (общие принципы) и создание инструкций</skill>
+          </skills>
+        </subcategory>
+      </subcategories>
+    </category>
+  </categories>
+</matrix>

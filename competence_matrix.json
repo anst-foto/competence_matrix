@@ -1,0 +1,621 @@
+{
+  "version": "1.0",
+  "categories": [
+    {
+      "name": "Computer Science",
+      "key": "cs",
+      "subcategories": [
+        {
+          "name": "Структуры данных",
+          "skills": [
+            {
+              "description": "Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения",
+              "type": "hard"
+            },
+            {
+              "description": "Понимание принципа работы хеш-таблиц и коллизий",
+              "type": "hard"
+            },
+            {
+              "description": "Базовое понимание деревьев (для иерархий, индексов БД)",
+              "type": "hard"
+            },
+            {
+              "description": "Аргументированный выбор структуры данных под задачу",
+              "type": "soft"
+            },
+            {
+              "description": "Анализ сложности (время доступа, использование памяти)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "Алгоритмы",
+          "skills": [
+            {
+              "description": "Линейный и бинарный поиск. Понимание основных сортировок",
+              "type": "hard"
+            },
+            {
+              "description": "Понимание нотации Big O (O(1), O(n), O(log n), O(n²))",
+              "type": "hard"
+            },
+            {
+              "description": "Оптимизационное мышление (оценка эффективности)",
+              "type": "soft"
+            },
+            {
+              "description": "Декомпозиция задачи на алгоритмические шаги",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "Архитектура & Паттерны",
+          "skills": [
+            {
+              "description": "Понимание и применение принципов SOLID",
+              "type": "hard"
+            },
+            {
+              "description": "Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)",
+              "type": "hard"
+            },
+            {
+              "description": "Порождающие паттерны: Singleton, Builder, Prototype",
+              "type": "hard"
+            },
+            {
+              "description": "Структурные паттерны: Adapter, Decorator, Facade",
+              "type": "hard"
+            },
+            {
+              "description": "Поведенческие паттерны: Strategy, Command, Iterator",
+              "type": "hard"
+            },
+            {
+              "description": "Паттерны корпоративных приложений: Unit of Work, Identity Map",
+              "type": "hard"
+            },
+            {
+              "description": "Абстрактное мышление и применение известных шаблонов",
+              "type": "soft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Язык C# и .NET",
+      "key": "csharp",
+      "subcategories": [
+        {
+          "name": "Основы C#",
+          "skills": [
+            {
+              "description": "Синтаксис: переменные, операторы, управляющие конструкции",
+              "type": "hard"
+            },
+            {
+              "description": "ООП: создание классов, инкапсуляция, наследование, полиморфизм",
+              "type": "hard"
+            },
+            {
+              "description": "Работа с исключениями (try-catch-finally, пользовательские исключения)",
+              "type": "hard"
+            },
+            {
+              "description": "Читаемость кода (соглашения об именовании)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "Продвинутые возможности C#",
+          "skills": [
+            {
+              "description": "LINQ (запросы и методы расширений)",
+              "type": "hard"
+            },
+            {
+              "description": "Асинхронность (async/await, Task)",
+              "type": "hard"
+            },
+            {
+              "description": "Рефлексия, атрибуты",
+              "type": "hard"
+            },
+            {
+              "description": "Generics, ковариантность и контравариантность",
+              "type": "hard"
+            },
+            {
+              "description": "Оптимизация (память, производительность)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "GUI (WPF / Avalonia)",
+          "skills": [
+            {
+              "description": "XAML: базовая разметка, панели компоновки (StackPanel, Grid)",
+              "type": "hard"
+            },
+            {
+              "description": "Data Binding (привязка к свойствам ViewModel, режимы)",
+              "type": "hard"
+            },
+            {
+              "description": "Команды (ICommand, ReactiveCommand)",
+              "type": "hard"
+            },
+            {
+              "description": "Стили, триггеры, шаблоны элементов управления",
+              "type": "hard"
+            },
+            {
+              "description": "Навигация между окнами/страницами",
+              "type": "hard"
+            },
+            {
+              "description": "UX-мышление и разделение логики (MVVM)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "Доступ к данным в .NET",
+          "skills": [
+            {
+              "description": "ADO.NET (SqlConnection, SqlCommand, SqlDataReader)",
+              "type": "hard"
+            },
+            {
+              "description": "Dapper (установка, Query<T>, Execute)",
+              "type": "hard"
+            },
+            {
+              "description": "Entity Framework Core (DbContext, миграции, LINQ-запросы)",
+              "type": "hard"
+            },
+            {
+              "description": "Выбор инструмента под задачу (Dapper vs EF Core)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "Тестирование",
+          "skills": [
+            {
+              "description": "Написание юнит-тестов (xUnit/NUnit)",
+              "type": "hard"
+            },
+            {
+              "description": "Использование mock-объектов (Moq, NSubstitute)",
+              "type": "hard"
+            },
+            {
+              "description": "Интеграционное тестирование",
+              "type": "hard"
+            },
+            {
+              "description": "TDD (разработка через тестирование)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "ASP.NET Core",
+          "skills": [
+            {
+              "description": "Создание Web API (контроллеры, маршрутизация)",
+              "type": "hard"
+            },
+            {
+              "description": "Middleware и конвейер обработки запросов",
+              "type": "hard"
+            },
+            {
+              "description": "Внедрение зависимостей (DI)",
+              "type": "hard"
+            },
+            {
+              "description": "Аутентификация и авторизация (JWT, Identity)",
+              "type": "hard"
+            },
+            {
+              "description": "Работа с базами данных через EF Core в ASP.NET",
+              "type": "hard"
+            },
+            {
+              "description": "Razor Pages / MVC",
+              "type": "hard"
+            }
+          ]
+        },
+        {
+          "name": "Документирование в C#",
+          "skills": [
+            {
+              "description": "XML-комментарии для публичных API (summary, param, returns)",
+              "type": "hard"
+            },
+            {
+              "description": "Генерация документации (DocFX)",
+              "type": "hard"
+            },
+            {
+              "description": "Документирование REST API (Swagger/OpenAPI в ASP.NET Core)",
+              "type": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Базы данных: SQL & СУБД",
+      "key": "sql",
+      "subcategories": [
+        {
+          "name": "Основы SQL",
+          "skills": [
+            {
+              "description": "DDL (CREATE/ALTER TABLE, ключи)",
+              "type": "hard"
+            },
+            {
+              "description": "DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)",
+              "type": "hard"
+            },
+            {
+              "description": "Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)",
+              "type": "hard"
+            },
+            {
+              "description": "Индексы, анализ плана запроса (EXPLAIN)",
+              "type": "hard"
+            },
+            {
+              "description": "Мышление множествами (составление запросов)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "PostgreSQL",
+          "skills": [
+            {
+              "description": "Особенности типов данных (JSONB, массивы)",
+              "type": "hard"
+            },
+            {
+              "description": "Полнотекстовый поиск (tsvector, tsquery)",
+              "type": "hard"
+            },
+            {
+              "description": "Расширения (PostGIS, pgcrypto)",
+              "type": "hard"
+            },
+            {
+              "description": "Настройка производительности (VACUUM, ANALYZE)",
+              "type": "hard"
+            },
+            {
+              "description": "Документирование схемы (комментарии к таблицам и колонкам)",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "MySQL",
+          "skills": [
+            {
+              "description": "Особенности хранения (InnoDB vs MyISAM)",
+              "type": "hard"
+            },
+            {
+              "description": "Репликация и партиционирование",
+              "type": "hard"
+            },
+            {
+              "description": "Оптимизация запросов (EXPLAIN в MySQL)",
+              "type": "hard"
+            },
+            {
+              "description": "Документирование схемы",
+              "type": "soft"
+            }
+          ]
+        },
+        {
+          "name": "SQLite",
+          "skills": [
+            {
+              "description": "Встраиваемая БД, особенности использования",
+              "type": "hard"
+            },
+            {
+              "description": "Работа с SQLite в мобильных и десктопных приложениях",
+              "type": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Веб-разработка",
+      "key": "web",
+      "subcategories": [
+        {
+          "name": "HTML/CSS",
+          "skills": [
+            {
+              "description": "Семантическая вёрстка, доступность",
+              "type": "hard"
+            },
+            {
+              "description": "Flexbox и Grid Layout",
+              "type": "hard"
+            },
+            {
+              "description": "Адаптивная вёрстка (медиа-запросы)",
+              "type": "hard"
+            },
+            {
+              "description": "Препроцессоры (Sass, Less)",
+              "type": "hard"
+            }
+          ]
+        },
+        {
+          "name": "JavaScript",
+          "skills": [
+            {
+              "description": "Основы синтаксиса, типы данных, функции",
+              "type": "hard"
+            },
+            {
+              "description": "DOM-манипуляции и события",
+              "type": "hard"
+            },
+            {
+              "description": "Асинхронность (Promise, async/await)",
+              "type": "hard"
+            },
+            {
+              "description": "Fetch API и работа с REST",
+              "type": "hard"
+            },
+            {
+              "description": "Модули (ES6 modules)",
+              "type": "hard"
+            },
+            {
+              "description": "Документирование JavaScript (JSDoc: @param, @returns, @throws)",
+              "type": "hard"
+            },
+            {
+              "description": "Генерация документации (JSDoc, TypeDoc для TypeScript)",
+              "type": "hard"
+            }
+          ]
+        },
+        {
+          "name": "PHP",
+          "skills": [
+            {
+              "description": "Основы синтаксиса, работа с формами",
+              "type": "hard"
+            },
+            {
+              "description": "Сессии и куки",
+              "type": "hard"
+            },
+            {
+              "description": "Подключение к БД (MySQLi, PDO)",
+              "type": "hard"
+            },
+            {
+              "description": "Основы ООП в PHP",
+              "type": "hard"
+            },
+            {
+              "description": "Документирование PHP (PHPDoc: @param, @return, @throws)",
+              "type": "hard"
+            },
+            {
+              "description": "Инструменты: phpDocumentor, Doxygen",
+              "type": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Мобильная разработка",
+      "key": "mobile",
+      "subcategories": [
+        {
+          "name": "Android (Kotlin)",
+          "skills": [
+            {
+              "description": "Основы языка Kotlin (синтаксис, null safety, корутины)",
+              "type": "hard"
+            },
+            {
+              "description": "Android SDK (Activity, Fragment, жизненный цикл)",
+              "type": "hard"
+            },
+            {
+              "description": "Jetpack Compose (composable-функции, state, модификаторы)",
+              "type": "hard"
+            },
+            {
+              "description": "Навигация в Compose",
+              "type": "hard"
+            },
+            {
+              "description": "Архитектурные компоненты (ViewModel, LiveData/Flow)",
+              "type": "hard"
+            },
+            {
+              "description": "Работа с сетью (Retrofit, Kotlin Serialization)",
+              "type": "hard"
+            },
+            {
+              "description": "Базы данных (Room)",
+              "type": "hard"
+            },
+            {
+              "description": "DI (Dagger, Hilt)",
+              "type": "hard"
+            },
+            {
+              "description": "Тестирование на Android",
+              "type": "hard"
+            },
+            {
+              "description": "Документирование Kotlin (KDoc, Dokka)",
+              "type": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Контейнеризация",
+      "key": "docker",
+      "subcategories": [
+        {
+          "name": "Docker",
+          "skills": [
+            {
+              "description": "Основные команды (docker run, build, push)",
+              "type": "hard"
+            },
+            {
+              "description": "Создание Dockerfile, оптимизация слоёв",
+              "type": "hard"
+            },
+            {
+              "description": "Docker Compose (запуск многоконтейнерных приложений)",
+              "type": "hard"
+            },
+            {
+              "description": "Сетевое взаимодействие контейнеров",
+              "type": "hard"
+            },
+            {
+              "description": "Volumes и работа с данными",
+              "type": "hard"
+            },
+            {
+              "description": "CI/CD интеграция (GitLab CI, GitHub Actions)",
+              "type": "soft"
+            },
+            {
+              "description": "Документирование Docker-образов (docker inspect, labels)",
+              "type": "soft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Инструменты: Git",
+      "key": "git",
+      "subcategories": [
+        {
+          "name": "Базовые команды",
+          "skills": [
+            {
+              "description": "init, clone, add, commit, push, pull",
+              "type": "hard"
+            },
+            {
+              "description": "Ветвление и слияние (branch, merge, разрешение конфликтов)",
+              "type": "hard"
+            },
+            {
+              "description": "Осмысленные коммиты (понятные сообщения)",
+              "type": "soft"
+            },
+            {
+              "description": "Командная работа (работа с общим репозиторием, pull requests)",
+              "type": "soft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Взаимодействие в команде",
+      "key": "team",
+      "subcategories": [
+        {
+          "name": "Навыки коммуникации",
+          "skills": [
+            {
+              "description": "Участие в код-ревью: давать конструктивную обратную связь",
+              "type": "soft"
+            },
+            {
+              "description": "Участие в код-ревью: принимать замечания и анализировать",
+              "type": "soft"
+            },
+            {
+              "description": "Совместная разработка в Git (ветки, мерж-реквесты)",
+              "type": "soft"
+            },
+            {
+              "description": "Ясная устная и письменная коммуникация",
+              "type": "soft"
+            },
+            {
+              "description": "Работа по Agile/Scrum: роли, стендапы, оценка задач",
+              "type": "soft"
+            },
+            {
+              "description": "Менторство и обмен знаниями",
+              "type": "soft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Профессиональные практики",
+      "key": "prof",
+      "subcategories": [
+        {
+          "name": "Общие практики",
+          "skills": [
+            {
+              "description": "Отладка (точки останова, пошаговое выполнение)",
+              "type": "hard"
+            },
+            {
+              "description": "Профилирование и оптимизация производительности",
+              "type": "hard"
+            },
+            {
+              "description": "Проактивность (самостоятельный поиск и исправление ошибок)",
+              "type": "soft"
+            },
+            {
+              "description": "Восприятие обратной связи и работа над собой",
+              "type": "soft"
+            },
+            {
+              "description": "Документирование кода (общие принципы) и создание инструкций",
+              "type": "soft"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
