@@ -1,0 +1,105 @@
+@import (reference) 'colors.less';
+
+.cat-cs { background-color: @cs-base; }
+.cat-csharp { background-color: @csharp-base; }
+.cat-avalonia { background-color: @avalonia-base; }
+.cat-dataaccess { background-color: @dataaccess-base; }
+.cat-sql { background-color: @sql-base; }
+.cat-git { background-color: @git-base; }
+.cat-team { background-color: @team-base; }
+.cat-prof { background-color: @prof-base; }
+
+.subcat-cs { background-color: @cs-base; }
+.subcat-csharp { background-color: @csharp-base; }
+.subcat-avalonia { background-color: @avalonia-base; }
+.subcat-dataaccess { background-color: @dataaccess-base; }
+.subcat-sql { background-color: @sql-base; }
+.subcat-git { background-color: @git-base; }
+.subcat-team { background-color: @team-base; }
+.subcat-prof { background-color: @prof-base; }
+
+.subcategory-row td {
+  font-weight: 700;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.hard-cs { background-color: @cs-hard; }
+.hard-csharp { background-color: @csharp-hard; }
+.hard-avalonia { background-color: @avalonia-hard; }
+.hard-dataaccess { background-color: @dataaccess-hard; }
+.hard-sql { background-color: @sql-hard; }
+.hard-git { background-color: @git-hard; }
+.hard-team { background-color: @team-hard; }
+.hard-prof { background-color: @prof-hard; }
+
+.soft-cs { background-color: @cs-soft; }
+.soft-csharp { background-color: @csharp-soft; }
+.soft-avalonia { background-color: @avalonia-soft; }
+.soft-dataaccess { background-color: @dataaccess-soft; }
+.soft-sql { background-color: @sql-soft; }
+.soft-git { background-color: @git-soft; }
+.soft-team { background-color: @team-soft; }
+.soft-prof { background-color: @prof-soft; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: @body-bg;
+  color: @text-color;
+}
+h1 {
+  text-align: center;
+}
+.table-container {
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: @table-bg;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 800px;
+}
+th {
+  background-color: @header-bg;
+  color: @header-text;
+  padding: 12px 8px;
+  font-weight: 600;
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+td {
+  padding: 10px 8px;
+  border-bottom: 1px solid @border-color;
+  vertical-align: top;
+}
+tr:hover td {
+  filter: brightness(@hover-brightness);
+}
+.skill-type {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: @skill-type-bg;
+}
+.subcategory-header {
+  background-color: rgba(0,0,0,0.06);
+  font-weight: 600;
+  padding: 8px;
+  border-bottom: 1px solid @border-color;
+  color: #555;
+  font-size: 1.1em;
+}
+.note {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: @note-bg;
+  border-left: 5px solid @note-border;
+  border-radius: 4px;
+}

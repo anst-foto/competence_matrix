@@ -1,0 +1,67 @@
+{
+  "name": "competency-matrix-generator",
+  "version": "0.1.2",
+  "description": "Static site generator for competency matrix",
+  "main": "generate.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run validate && npm run clean",
+    "build": "node generate.js",
+    "postbuild": "echo \"✅ Сайт успешно сгенерирован в dist/\" && npm run build:summary",
+    "build:summary": "echo \"📊 Всего категорий: $(node -e \"console.log(require('./data/competence_matrix.json').categories.length)\")\"",
+    "prevalidate": "echo \"🔍 Проверка JSON схемы...\"",
+    "validate": "node scripts/validate.js",
+    "postvalidate": "echo \"✅ JSON корректен\"",
+    "lint:js": "eslint generate.js scripts/",
+    "lint:css": "stylelint \"src/styles/**/*.less\"",
+    "lint": "npm-run-all --parallel lint:*",
+    "prelint:fix": "echo \"🔧 Исправление ошибок линтеров...\"",
+    "lint:js:fix": "eslint generate.js scripts/ --fix",
+    "lint:css:fix": "stylelint \"src/styles/**/*.less\" --fix",
+    "lint:fix": "npm-run-all --parallel lint:js:fix lint:css:fix",
+    "postlint:fix": "echo \"✅ Исправление завершено\"",
+    "prelint:report": "mkdir -p reports && echo \"📊 Генерация отчётов...\"",
+    "lint:js:report": "eslint generate.js scripts/ -f json -o reports/eslint-report.json || true",
+    "lint:css:report": "stylelint \"src/styles/**/*.less\" -f json -o reports/stylelint-report.json || true",
+    "lint:report": "npm-run-all --parallel lint:js:report lint:css:report",
+    "postlint:report": "echo \"✅ Отчёты сохранены в папке reports/\"",
+    "lint:js:console": "eslint generate.js scripts/ -f codeframe",
+    "lint:css:console": "stylelint \"src/styles/**/*.less\" -f verbose",
+    "lint:console": "npm-run-all --parallel lint:js:console lint:css:console",
+    "format": "prettier --write \"**/*.{js,json,md,less}\"",
+    "preversion": "npm run lint && npm run validate",
+    "version": "npm run build && git add dist",
+    "postversion": "git push && git push --tags",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitflic.ru/project/anst/competence_matrix.git"
+  },
+  "dependencies": {
+    "ajv": "^8.18.0",
+    "fs-extra": "^11.1.1",
+    "less": "^4.2.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-formatter-codeframe": "^7.32.2",
+    "globals": "^16.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.1.1",
+    "rimraf": "^6.0.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-less": "^3.0.1"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": "prettier --write",
+    "*.less": "stylelint --fix"
+  }
+}

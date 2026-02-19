@@ -1,0 +1,37 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Матрица компетенций
+        link(rel="stylesheet", href="style.css")
+    body
+        h1 Матрица компетенций студента-разработчика (версия #{matrix.version})
+        .table-container
+            table
+                thead
+                    tr
+                        th Категория
+                        th Конкретный навык
+                        th Тип навыка
+                tbody
+                    each category in matrix.categories
+                        - let firstRow = true
+                        each subcategory, subIndex in category.subcategories
+                            if subIndex > 0
+                                //- Строка подкатегории (colspan=3) с классом subcat-{key}
+                                tr.subcategory-row(class=`subcat-${category.key}`)
+                                    td(colspan="3").subcategory-header= subcategory.name
+                            each skill, skillIndex in subcategory.skills
+                                tr
+                                    if firstRow && skillIndex === 0 && subIndex === 0
+                                        //- Ячейка категории с классом cat-{key}
+                                        td(rowspan= category.subcategories.reduce((acc, sub) => acc + sub.skills.length, 0) + (category.subcategories.length - 1), class=`cat-${category.key}`)= category.name
+                                    td= skill.description
+                                    td
+                                        //- Ячейка типа навыка с классом skill-{type}-{key}
+                                        span.skill-type(class=`${skill.type}-${category.key}`)= skill.type === 'hard' ? 'Хард' : 'Софт'
+                                - firstRow = false
+        .note
+            strong 🎨 Цветовая схема:
+            | Категория — базовый цвет, подкатегория — базовый цвет категории (отдельная строка), навыки — оттенки для hard/soft.
