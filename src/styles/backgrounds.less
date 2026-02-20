@@ -1,0 +1,56 @@
+@import url('colors');
+
+// Миксин для узора soft-скиллов
+.soft-pattern() {
+  background-image: repeating-linear-gradient(
+          45deg,
+          rgba(0, 0, 0, 3%) 0,
+          rgba(0, 0, 0, 3%) 4px,
+          transparent 4px,
+          transparent 8px
+  );
+}
+
+// Миксин для генерации классов подкатегорий и навыков
+.generate-category(@cat-key, @base-color, @count) {
+  .loop(@i) when (@i > 0) {
+    @subcat-color: spin(@base-color, (@i - 1) * @spin-step);
+    @hard-color: darken(@subcat-color, @hard-darken);
+    @soft-color: lighten(desaturate(@subcat-color, @soft-desaturate), @soft-lighten);
+
+    .subcat-@{cat-key}@{i} {
+      background-color: @subcat-color;
+    }
+    .hard-@{cat-key}@{i} {
+      background-color: @hard-color;
+    }
+    .soft-@{cat-key}@{i} {
+      background-color: @soft-color;
+      .soft-pattern();
+    }
+    .loop(@i - 1);
+  }
+  .loop(@count);
+}
+
+// Генерация для всех категорий
+.generate-category(cs, @cs-base, @cs-subcat-count);
+.generate-category(csharp, @csharp-base, @csharp-subcat-count);
+.generate-category(sql, @sql-base, @sql-subcat-count);
+.generate-category(web, @web-base, @web-subcat-count);
+.generate-category(mobile, @mobile-base, @mobile-subcat-count);
+.generate-category(docker, @docker-base, @docker-subcat-count);
+.generate-category(git, @git-base, @git-subcat-count);
+.generate-category(team, @team-base, @team-subcat-count);
+.generate-category(prof, @prof-base, @prof-subcat-count);
+
+// Классы для ячеек категорий (используют базовый цвет)
+.cat-cs { background-color: @cs-base; }
+.cat-csharp { background-color: @csharp-base; }
+.cat-sql { background-color: @sql-base; }
+.cat-web { background-color: @web-base; }
+.cat-mobile { background-color: @mobile-base; }
+.cat-docker { background-color: @docker-base; }
+.cat-git { background-color: @git-base; }
+.cat-team { background-color: @team-base; }
+.cat-prof { background-color: @prof-base; }

@@ -18,22 +18,23 @@ const ajv = new Ajv();
 const validate = ajv.compile(schema);
 const valid = validate(matrixData);
 if (!valid) {
-    console.error('JSON не прошёл валидацию:');
-    console.error(validate.errors);
-    process.exit(1);
+  console.error('JSON не прошёл валидацию:');
+  console.error(validate.errors);
+  process.exit(1);
 }
 
 const colorsFile = path.join(SRC_DIR, 'styles', 'colors.less');
-const stylesFile = path.join(SRC_DIR, 'styles', 'style.less');
+const stylesFile = path.join(SRC_DIR, 'styles', 'styles.less');
 let lessContent = fs.readFileSync(colorsFile, 'utf8') + '\n' + fs.readFileSync(stylesFile, 'utf8');
 
-less.render(lessContent, { filename: stylesFile })
-    .then(output => {
-        fs.writeFileSync(path.join(DIST_DIR, 'style.css'), output.css);
-    })
-    .catch(err => {
-        console.error('LESS Error:', err);
-    });
+less
+  .render(lessContent, { filename: stylesFile })
+  .then((output) => {
+    fs.writeFileSync(path.join(DIST_DIR, 'styles.css'), output.css);
+  })
+  .catch((err) => {
+    console.error('LESS Error:', err);
+  });
 
 const pugFile = path.join(SRC_DIR, 'templates', 'index.pug');
 const html = pug.renderFile(pugFile, { matrix: matrixData });

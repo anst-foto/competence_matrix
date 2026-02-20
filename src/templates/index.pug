@@ -4,7 +4,7 @@ html(lang="ru")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Матрица компетенций
-        link(rel="stylesheet", href="style.css")
+        link(rel="stylesheet", href="styles.css")
     body
         h1 Матрица компетенций студента-разработчика (версия #{matrix.version})
         .table-container
@@ -18,20 +18,37 @@ html(lang="ru")
                     each category in matrix.categories
                         - let firstRow = true
                         each subcategory, subIndex in category.subcategories
+                            - let subcatNum = subIndex + 1
                             if subIndex > 0
-                                //- Строка подкатегории (colspan=3) с классом subcat-{key}
-                                tr.subcategory-row(class=`subcat-${category.key}`)
+                                tr.subcategory-row(data-category-key=category.key, class=`subcat-${category.key}${subcatNum}`)
                                     td(colspan="3").subcategory-header= subcategory.name
                             each skill, skillIndex in subcategory.skills
-                                tr
+                                tr(data-category-key=category.key)
                                     if firstRow && skillIndex === 0 && subIndex === 0
-                                        //- Ячейка категории с классом cat-{key}
-                                        td(rowspan= category.subcategories.reduce((acc, sub) => acc + sub.skills.length, 0) + (category.subcategories.length - 1), class=`cat-${category.key}`)= category.name
-                                    td= skill.description
-                                    td
-                                        //- Ячейка типа навыка с классом skill-{type}-{key}
-                                        span.skill-type(class=`${skill.type}-${category.key}`)= skill.type === 'hard' ? 'Хард' : 'Софт'
+                                        td(rowspan= category.subcategories.reduce((acc, sub) => acc + sub.skills.length, 0) + (category.subcategories.length - 1), data-category-key=category.key, class=`cat-${category.key}`)= category.name
+                                    td(class=`${skill.type}-${category.key}${subcatNum}`)= skill.description
+                                    td(class=`${skill.type}-${category.key}${subcatNum}`)
+                                        span.skill-type= skill.type === 'hard' ? 'Хард' : 'Софт'
                                 - firstRow = false
+
         .note
             strong 🎨 Цветовая схема:
-            | Категория — базовый цвет, подкатегория — базовый цвет категории (отдельная строка), навыки — оттенки для hard/soft.
+            | Категория — базовый цвет, подкатегория — градиентный сдвиг, навыки — оттенки с узором для soft. При наведении на категорию подсвечивается вся группа.
+
+        .color-legend
+            h3 Легенда цветов
+            table
+                thead
+                    tr
+                        th Категория
+                        th Базовый цвет
+                        th Hard-скилл (пример)
+                        th Soft-скилл (пример)
+                tbody
+                    each category in matrix.categories
+                        - let exampleNum = 1
+                        tr
+                            td= category.name
+                            td: span.color-sample(class=`cat-${category.key}`)
+                            td: span.color-sample(class=`hard-${category.key}${exampleNum}`)
+                            td: span.color-sample(class=`soft-${category.key}${exampleNum}`)
