@@ -47,7 +47,18 @@ less
   });
 
 const pugFile = path.join(SRC_DIR, 'templates', 'index.pug');
-const html = pug.renderFile(pugFile, { matrix: matrixData });
+const html = pug.renderFile(pugFile, {
+  matrix: matrixData,
+  pretty: true,
+});
 fs.writeFileSync(path.join(DIST_DIR, 'index.html'), html);
+
+const JS_SRC_DIR = path.join(SRC_DIR, 'js');
+const JS_DIST_DIR = path.join(DIST_DIR, 'js');
+if (fs.existsSync(JS_SRC_DIR)) {
+  fs.ensureDirSync(JS_DIST_DIR);
+  fs.copySync(JS_SRC_DIR, JS_DIST_DIR);
+  console.log('✅ Клиентские скрипты скопированы в dist/js');
+}
 
 console.log('✅ Сайт сгенерирован в папке dist/');

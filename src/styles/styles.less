@@ -1,4 +1,4 @@
-@import url('backgrounds');
+@import 'backgrounds';
 
 // ========== Общие стили ==========
 body {
@@ -140,4 +140,90 @@ table:has(td.cat-prof[data-category-key="prof"]:hover) tr[data-category-key="pro
   width: 30px;
   height: 20px;
   border: 1px solid #ccc;
+}
+
+// Стили для полей ввода
+.rating-input {
+  width: 100%;
+  min-width: 70px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+input[type="date"].rating-input {
+  min-width: 120px;
+}
+
+input[type="text"].rating-input {
+  min-width: 150px;
+}
+
+// Кнопки управления
+.controls {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+
+    &#export-btn {
+      background-color: #4CAF50;
+      color: white;
+      &:hover { background-color: #45a049; }
+    }
+
+    &#reset-btn {
+      background-color: #f44336;
+      color: white;
+      &:hover { background-color: #d32f2f; }
+    }
+  }
+}
+
+#matrix-table {
+  th, td {
+    white-space: nowrap;
+  }
+
+  .category-col,
+  .subcategory-col {
+    max-width: 150px;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .skill-col {
+    max-width: 200px;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .self-col,
+  .freq-col,
+  .conf-col {
+    min-width: 70px;
+  }
+  .date-col {
+    min-width: 120px;
+  }
+  .note-col {
+    min-width: 150px;
+  }
+
+  .rating-input {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 13px;
+  }
 }
