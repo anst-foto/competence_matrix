@@ -23,6 +23,16 @@ if (!valid) {
   process.exit(1);
 }
 
+let generatedLess = '// Автоматически сгенерировано из JSON. Не редактировать вручную.\n\n';
+matrixData.categories.forEach((cat) => {
+  const count = cat.subcategories.length;
+  generatedLess += `@${cat.key}-subcat-count: ${count};\n`;
+});
+
+const generatedFilePath = path.join(SRC_DIR, 'styles', '_generated.less');
+fs.writeFileSync(generatedFilePath, generatedLess);
+console.log('✅ Сгенерирован _generated.less с количеством подкатегорий');
+
 const colorsFile = path.join(SRC_DIR, 'styles', 'colors.less');
 const stylesFile = path.join(SRC_DIR, 'styles', 'styles.less');
 let lessContent = fs.readFileSync(colorsFile, 'utf8') + '\n' + fs.readFileSync(stylesFile, 'utf8');

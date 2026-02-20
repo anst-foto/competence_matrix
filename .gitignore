@@ -130,3 +130,5 @@ out
 
 # WebStorm
 .idea/
+
+src/styles/_generated.less
