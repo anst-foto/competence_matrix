@@ -219,31 +219,31 @@
   background-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0, rgba(0, 0, 0, 0.03) 4px, transparent 4px, transparent 8px);
 }
 .cat-cs {
-  background-color: #B2DFDB;
+  background-color: #b2dfdb;
 }
 .cat-csharp {
-  background-color: #D1C4E9;
+  background-color: #d1c4e9;
 }
 .cat-sql {
-  background-color: #B3E5FC;
+  background-color: #b3e5fc;
 }
 .cat-web {
-  background-color: #FFE0B2;
+  background-color: #ffe0b2;
 }
 .cat-mobile {
-  background-color: #C8E6C9;
+  background-color: #c8e6c9;
 }
 .cat-docker {
-  background-color: #CFD8DC;
+  background-color: #cfd8dc;
 }
 .cat-git {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
 .cat-team {
-  background-color: #FFCCBC;
+  background-color: #ffccbc;
 }
 .cat-prof {
-  background-color: #FFECB3;
+  background-color: #ffecb3;
 }
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -311,31 +311,31 @@ td {
 tr:hover td {
   filter: brightness(0.98);
 }
-table:has(td.cat-cs[data-category-key="cs"]:hover) tr[data-category-key="cs"] {
+table:has(td.cat-cs[data-category-key='cs']:hover) tr[data-category-key='cs'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-csharp[data-category-key="csharp"]:hover) tr[data-category-key="csharp"] {
+table:has(td.cat-csharp[data-category-key='csharp']:hover) tr[data-category-key='csharp'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-sql[data-category-key="sql"]:hover) tr[data-category-key="sql"] {
+table:has(td.cat-sql[data-category-key='sql']:hover) tr[data-category-key='sql'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-web[data-category-key="web"]:hover) tr[data-category-key="web"] {
+table:has(td.cat-web[data-category-key='web']:hover) tr[data-category-key='web'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-mobile[data-category-key="mobile"]:hover) tr[data-category-key="mobile"] {
+table:has(td.cat-mobile[data-category-key='mobile']:hover) tr[data-category-key='mobile'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-docker[data-category-key="docker"]:hover) tr[data-category-key="docker"] {
+table:has(td.cat-docker[data-category-key='docker']:hover) tr[data-category-key='docker'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-git[data-category-key="git"]:hover) tr[data-category-key="git"] {
+table:has(td.cat-git[data-category-key='git']:hover) tr[data-category-key='git'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-team[data-category-key="team"]:hover) tr[data-category-key="team"] {
+table:has(td.cat-team[data-category-key='team']:hover) tr[data-category-key='team'] {
   filter: brightness(1.1);
 }
-table:has(td.cat-prof[data-category-key="prof"]:hover) tr[data-category-key="prof"] {
+table:has(td.cat-prof[data-category-key='prof']:hover) tr[data-category-key='prof'] {
   filter: brightness(1.1);
 }
 .color-legend {
@@ -368,10 +368,10 @@ table:has(td.cat-prof[data-category-key="prof"]:hover) tr[data-category-key="pro
   box-sizing: border-box;
   font-size: 13px;
 }
-input[type="date"].rating-input {
+input[type='date'].rating-input {
   min-width: 120px;
 }
-input[type="text"].rating-input {
+input[type='text'].rating-input {
   min-width: 150px;
 }
 .controls {
@@ -387,7 +387,7 @@ input[type="text"].rating-input {
   font-weight: 600;
 }
 .controls button#export-btn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 .controls button#export-btn:hover {
