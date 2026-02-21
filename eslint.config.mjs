@@ -32,5 +32,17 @@ export default [
 			'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 		},
 	},
+	{
+		files: ['src/scripts/**/*.js'],
+		rules: {
+			'no-console': 'off',
+		},
+	},
+	{
+		files: ['src/client/**/*.js'],
+		rules: {
+			'no-console': 'warn'
+		}
+	},
 	prettierConfig,
 ];
