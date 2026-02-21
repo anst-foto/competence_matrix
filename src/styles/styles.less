@@ -14,7 +14,7 @@ h1 {
 
 .table-container {
   overflow-x: auto;
-  box-shadow: 0 2px 8px rgba(0,0,0,10%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 10%);
   border-radius: 8px;
   background-color: @table-bg;
 }
@@ -80,39 +80,39 @@ tr:hover td {
   filter: brightness(@hover-brightness);
 }
 
-table:has(td.cat-cs[data-category-key="cs"]:hover) tr[data-category-key="cs"] {
+table:has(td.cat-cs[data-category-key='cs']:hover) tr[data-category-key='cs'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-csharp[data-category-key="csharp"]:hover) tr[data-category-key="csharp"] {
+table:has(td.cat-csharp[data-category-key='csharp']:hover) tr[data-category-key='csharp'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-sql[data-category-key="sql"]:hover) tr[data-category-key="sql"] {
+table:has(td.cat-sql[data-category-key='sql']:hover) tr[data-category-key='sql'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-web[data-category-key="web"]:hover) tr[data-category-key="web"] {
+table:has(td.cat-web[data-category-key='web']:hover) tr[data-category-key='web'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-mobile[data-category-key="mobile"]:hover) tr[data-category-key="mobile"] {
+table:has(td.cat-mobile[data-category-key='mobile']:hover) tr[data-category-key='mobile'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-docker[data-category-key="docker"]:hover) tr[data-category-key="docker"] {
+table:has(td.cat-docker[data-category-key='docker']:hover) tr[data-category-key='docker'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-git[data-category-key="git"]:hover) tr[data-category-key="git"] {
+table:has(td.cat-git[data-category-key='git']:hover) tr[data-category-key='git'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-team[data-category-key="team"]:hover) tr[data-category-key="team"] {
+table:has(td.cat-team[data-category-key='team']:hover) tr[data-category-key='team'] {
   filter: brightness(1.1);
 }
 
-table:has(td.cat-prof[data-category-key="prof"]:hover) tr[data-category-key="prof"] {
+table:has(td.cat-prof[data-category-key='prof']:hover) tr[data-category-key='prof'] {
   filter: brightness(1.1);
 }
 
@@ -128,7 +128,8 @@ table:has(td.cat-prof[data-category-key="prof"]:hover) tr[data-category-key="pro
     width: auto;
     min-width: 400px;
 
-    th, td {
+    th,
+    td {
       padding: 8px;
       text-align: left;
     }
@@ -153,11 +154,11 @@ table:has(td.cat-prof[data-category-key="prof"]:hover) tr[data-category-key="pro
   font-size: 13px;
 }
 
-input[type="date"].rating-input {
+input[type='date'].rating-input {
   min-width: 120px;
 }
 
-input[type="text"].rating-input {
+input[type='text'].rating-input {
   min-width: 150px;
 }
 
@@ -175,21 +176,28 @@ input[type="text"].rating-input {
     font-weight: 600;
 
     &#export-btn {
-      background-color: #4CAF50;
+      background-color: #4caf50;
       color: white;
-      &:hover { background-color: #45a049; }
+
+      &:hover {
+        background-color: #45a049;
+      }
     }
 
     &#reset-btn {
       background-color: #f44336;
       color: white;
-      &:hover { background-color: #d32f2f; }
+
+      &:hover {
+        background-color: #d32f2f;
+      }
     }
   }
 }
 
 #matrix-table {
-  th, td {
+  th,
+  td {
     white-space: nowrap;
   }
 
@@ -211,9 +219,11 @@ input[type="text"].rating-input {
   .conf-col {
     min-width: 70px;
   }
+
   .date-col {
     min-width: 120px;
   }
+
   .note-col {
     min-width: 150px;
   }
