@@ -132,3 +132,5 @@ out
 .idea/
 
 src/styles/_generated.less
+dist/index.html
+dist/styles.css
