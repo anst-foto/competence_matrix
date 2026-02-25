@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompetencyModel xmlns="http://ns.hr-xml.org/2007-04-15"
+								 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Competency>
+    <CompetencyId>cs_Структуры данных_Базовые структуры: м</CompetencyId>
+    <CompetencyName>Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения</CompetencyName>
+    <CompetencyDescription>Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Структуры данных</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Структуры данных_Понимание принципа р</CompetencyId>
+    <CompetencyName>Понимание принципа работы хеш-таблиц и коллизий</CompetencyName>
+    <CompetencyDescription>Понимание принципа работы хеш-таблиц и коллизий</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Структуры данных</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Структуры данных_Базовое понимание де</CompetencyId>
+    <CompetencyName>Базовое понимание деревьев (для иерархий, индексов БД)</CompetencyName>
+    <CompetencyDescription>Базовое понимание деревьев (для иерархий, индексов БД)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Структуры данных</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Структуры данных_Аргументированный вы</CompetencyId>
+    <CompetencyName>Аргументированный выбор структуры данных под задачу</CompetencyName>
+    <CompetencyDescription>Аргументированный выбор структуры данных под задачу</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Структуры данных</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Структуры данных_Анализ сложности (вр</CompetencyId>
+    <CompetencyName>Анализ сложности (время доступа, использование памяти)</CompetencyName>
+    <CompetencyDescription>Анализ сложности (время доступа, использование памяти)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Структуры данных</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Алгоритмы_Линейный и бинарный </CompetencyId>
+    <CompetencyName>Линейный и бинарный поиск. Понимание основных сортировок</CompetencyName>
+    <CompetencyDescription>Линейный и бинарный поиск. Понимание основных сортировок</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Алгоритмы</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Алгоритмы_Понимание нотации Bi</CompetencyId>
+    <CompetencyName>Понимание нотации Big O (O(1), O(n), O(log n), O(n²))</CompetencyName>
+    <CompetencyDescription>Понимание нотации Big O (O(1), O(n), O(log n), O(n²))</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Алгоритмы</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Алгоритмы_Оптимизационное мышл</CompetencyId>
+    <CompetencyName>Оптимизационное мышление (оценка эффективности)</CompetencyName>
+    <CompetencyDescription>Оптимизационное мышление (оценка эффективности)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Алгоритмы</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Алгоритмы_Декомпозиция задачи </CompetencyId>
+    <CompetencyName>Декомпозиция задачи на алгоритмические шаги</CompetencyName>
+    <CompetencyDescription>Декомпозиция задачи на алгоритмические шаги</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Алгоритмы</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Архитектура &amp; Паттерны_Понимание и применен</CompetencyId>
+    <CompetencyName>Понимание и применение принципов SOLID</CompetencyName>
+    <CompetencyDescription>Понимание и применение принципов SOLID</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Архитектура &amp; Паттерны</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Архитектура &amp; Паттерны_Знание базовых патте</CompetencyId>
+    <CompetencyName>Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)</CompetencyName>
+    <CompetencyDescription>Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Архитектура &amp; Паттерны</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Архитектура &amp; Паттерны_Порождающие паттерны</CompetencyId>
+    <CompetencyName>Порождающие паттерны: Singleton, Builder, Prototype</CompetencyName>
+    <CompetencyDescription>Порождающие паттерны: Singleton, Builder, Prototype</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Архитектура &amp; Паттерны</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Архитектура &amp; Паттерны_Структурные паттерны</CompetencyId>
+    <CompetencyName>Структурные паттерны: Adapter, Decorator, Facade</CompetencyName>
+    <CompetencyDescription>Структурные паттерны: Adapter, Decorator, Facade</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Архитектура &amp; Паттерны</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Архитектура &amp; Паттерны_Поведенческие паттер</CompetencyId>
+    <CompetencyName>Поведенческие паттерны: Strategy, Command, Iterator</CompetencyName>
+    <CompetencyDescription>Поведенческие паттерны: Strategy, Command, Iterator</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Архитектура &amp; Паттерны</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Архитектура &amp; Паттерны_Паттерны корпоративн</CompetencyId>
+    <CompetencyName>Паттерны корпоративных приложений: Unit of Work, Identity Map</CompetencyName>
+    <CompetencyDescription>Паттерны корпоративных приложений: Unit of Work, Identity Map</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Архитектура &amp; Паттерны</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>cs_Архитектура &amp; Паттерны_Абстрактное мышление</CompetencyId>
+    <CompetencyName>Абстрактное мышление и применение известных шаблонов</CompetencyName>
+    <CompetencyDescription>Абстрактное мышление и применение известных шаблонов</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>cs</TaxonomyId>
+      <TaxonomyName>Computer Science</TaxonomyName>
+      <TaxonomyLevel>Архитектура &amp; Паттерны</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Основы C#_Синтаксис: переменны</CompetencyId>
+    <CompetencyName>Синтаксис: переменные, операторы, управляющие конструкции</CompetencyName>
+    <CompetencyDescription>Синтаксис: переменные, операторы, управляющие конструкции</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Основы C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Основы C#_ООП: создание классо</CompetencyId>
+    <CompetencyName>ООП: создание классов, инкапсуляция, наследование, полиморфизм</CompetencyName>
+    <CompetencyDescription>ООП: создание классов, инкапсуляция, наследование, полиморфизм</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Основы C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Основы C#_Работа с исключениям</CompetencyId>
+    <CompetencyName>Работа с исключениями (try-catch-finally, пользовательские исключения)</CompetencyName>
+    <CompetencyDescription>Работа с исключениями (try-catch-finally, пользовательские исключения)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Основы C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Основы C#_Читаемость кода (сог</CompetencyId>
+    <CompetencyName>Читаемость кода (соглашения об именовании)</CompetencyName>
+    <CompetencyDescription>Читаемость кода (соглашения об именовании)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Основы C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Продвинутые возможности C#_LINQ (запросы и мето</CompetencyId>
+    <CompetencyName>LINQ (запросы и методы расширений)</CompetencyName>
+    <CompetencyDescription>LINQ (запросы и методы расширений)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Продвинутые возможности C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Продвинутые возможности C#_Асинхронность (async</CompetencyId>
+    <CompetencyName>Асинхронность (async/await, Task)</CompetencyName>
+    <CompetencyDescription>Асинхронность (async/await, Task)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Продвинутые возможности C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Продвинутые возможности C#_Рефлексия, атрибуты</CompetencyId>
+    <CompetencyName>Рефлексия, атрибуты</CompetencyName>
+    <CompetencyDescription>Рефлексия, атрибуты</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Продвинутые возможности C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Продвинутые возможности C#_Generics, ковариантн</CompetencyId>
+    <CompetencyName>Generics, ковариантность и контравариантность</CompetencyName>
+    <CompetencyDescription>Generics, ковариантность и контравариантность</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Продвинутые возможности C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Продвинутые возможности C#_Оптимизация (память,</CompetencyId>
+    <CompetencyName>Оптимизация (память, производительность)</CompetencyName>
+    <CompetencyDescription>Оптимизация (память, производительность)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Продвинутые возможности C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_GUI (WPF / Avalonia)_XAML: базовая размет</CompetencyId>
+    <CompetencyName>XAML: базовая разметка, панели компоновки (StackPanel, Grid)</CompetencyName>
+    <CompetencyDescription>XAML: базовая разметка, панели компоновки (StackPanel, Grid)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>GUI (WPF / Avalonia)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_GUI (WPF / Avalonia)_Data Binding (привяз</CompetencyId>
+    <CompetencyName>Data Binding (привязка к свойствам ViewModel, режимы)</CompetencyName>
+    <CompetencyDescription>Data Binding (привязка к свойствам ViewModel, режимы)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>GUI (WPF / Avalonia)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_GUI (WPF / Avalonia)_Команды (ICommand, R</CompetencyId>
+    <CompetencyName>Команды (ICommand, ReactiveCommand)</CompetencyName>
+    <CompetencyDescription>Команды (ICommand, ReactiveCommand)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>GUI (WPF / Avalonia)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_GUI (WPF / Avalonia)_Стили, триггеры, шаб</CompetencyId>
+    <CompetencyName>Стили, триггеры, шаблоны элементов управления</CompetencyName>
+    <CompetencyDescription>Стили, триггеры, шаблоны элементов управления</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>GUI (WPF / Avalonia)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_GUI (WPF / Avalonia)_Навигация между окна</CompetencyId>
+    <CompetencyName>Навигация между окнами/страницами</CompetencyName>
+    <CompetencyDescription>Навигация между окнами/страницами</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>GUI (WPF / Avalonia)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_GUI (WPF / Avalonia)_UX-мышление и раздел</CompetencyId>
+    <CompetencyName>UX-мышление и разделение логики (MVVM)</CompetencyName>
+    <CompetencyDescription>UX-мышление и разделение логики (MVVM)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>GUI (WPF / Avalonia)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Доступ к данным в .NET_ADO.NET (SqlConnecti</CompetencyId>
+    <CompetencyName>ADO.NET (SqlConnection, SqlCommand, SqlDataReader)</CompetencyName>
+    <CompetencyDescription>ADO.NET (SqlConnection, SqlCommand, SqlDataReader)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Доступ к данным в .NET</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Доступ к данным в .NET_Dapper (установка, Q</CompetencyId>
+    <CompetencyName>Dapper (установка, Query&lt;T&gt;, Execute)</CompetencyName>
+    <CompetencyDescription>Dapper (установка, Query&lt;T&gt;, Execute)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Доступ к данным в .NET</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Доступ к данным в .NET_Entity Framework Cor</CompetencyId>
+    <CompetencyName>Entity Framework Core (DbContext, миграции, LINQ-запросы)</CompetencyName>
+    <CompetencyDescription>Entity Framework Core (DbContext, миграции, LINQ-запросы)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Доступ к данным в .NET</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Доступ к данным в .NET_Выбор инструмента по</CompetencyId>
+    <CompetencyName>Выбор инструмента под задачу (Dapper vs EF Core)</CompetencyName>
+    <CompetencyDescription>Выбор инструмента под задачу (Dapper vs EF Core)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Доступ к данным в .NET</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Тестирование_Написание юнит-тесто</CompetencyId>
+    <CompetencyName>Написание юнит-тестов (xUnit/NUnit)</CompetencyName>
+    <CompetencyDescription>Написание юнит-тестов (xUnit/NUnit)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Тестирование</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Тестирование_Использование mock-о</CompetencyId>
+    <CompetencyName>Использование mock-объектов (Moq, NSubstitute)</CompetencyName>
+    <CompetencyDescription>Использование mock-объектов (Moq, NSubstitute)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Тестирование</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Тестирование_Интеграционное тести</CompetencyId>
+    <CompetencyName>Интеграционное тестирование</CompetencyName>
+    <CompetencyDescription>Интеграционное тестирование</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Тестирование</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Тестирование_TDD (разработка чере</CompetencyId>
+    <CompetencyName>TDD (разработка через тестирование)</CompetencyName>
+    <CompetencyDescription>TDD (разработка через тестирование)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Тестирование</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_ASP.NET Core_Создание Web API (ко</CompetencyId>
+    <CompetencyName>Создание Web API (контроллеры, маршрутизация)</CompetencyName>
+    <CompetencyDescription>Создание Web API (контроллеры, маршрутизация)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>ASP.NET Core</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_ASP.NET Core_Middleware и конвейе</CompetencyId>
+    <CompetencyName>Middleware и конвейер обработки запросов</CompetencyName>
+    <CompetencyDescription>Middleware и конвейер обработки запросов</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>ASP.NET Core</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_ASP.NET Core_Внедрение зависимост</CompetencyId>
+    <CompetencyName>Внедрение зависимостей (DI)</CompetencyName>
+    <CompetencyDescription>Внедрение зависимостей (DI)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>ASP.NET Core</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_ASP.NET Core_Аутентификация и авт</CompetencyId>
+    <CompetencyName>Аутентификация и авторизация (JWT, Identity)</CompetencyName>
+    <CompetencyDescription>Аутентификация и авторизация (JWT, Identity)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>ASP.NET Core</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_ASP.NET Core_Работа с базами данн</CompetencyId>
+    <CompetencyName>Работа с базами данных через EF Core в ASP.NET</CompetencyName>
+    <CompetencyDescription>Работа с базами данных через EF Core в ASP.NET</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>ASP.NET Core</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_ASP.NET Core_Razor Pages / MVC</CompetencyId>
+    <CompetencyName>Razor Pages / MVC</CompetencyName>
+    <CompetencyDescription>Razor Pages / MVC</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>ASP.NET Core</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Документирование в C#_XML-комментарии для </CompetencyId>
+    <CompetencyName>XML-комментарии для публичных API (summary, param, returns)</CompetencyName>
+    <CompetencyDescription>XML-комментарии для публичных API (summary, param, returns)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Документирование в C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Документирование в C#_Генерация документац</CompetencyId>
+    <CompetencyName>Генерация документации (DocFX)</CompetencyName>
+    <CompetencyDescription>Генерация документации (DocFX)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Документирование в C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>csharp_Документирование в C#_Документирование RES</CompetencyId>
+    <CompetencyName>Документирование REST API (Swagger/OpenAPI в ASP.NET Core)</CompetencyName>
+    <CompetencyDescription>Документирование REST API (Swagger/OpenAPI в ASP.NET Core)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>csharp</TaxonomyId>
+      <TaxonomyName>Язык C# и .NET</TaxonomyName>
+      <TaxonomyLevel>Документирование в C#</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_Основы SQL_DDL (CREATE/ALTER TA</CompetencyId>
+    <CompetencyName>DDL (CREATE/ALTER TABLE, ключи)</CompetencyName>
+    <CompetencyDescription>DDL (CREATE/ALTER TABLE, ключи)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>Основы SQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_Основы SQL_DML (SELECT с JOIN, </CompetencyId>
+    <CompetencyName>DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)</CompetencyName>
+    <CompetencyDescription>DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>Основы SQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_Основы SQL_Транзакции (ACID, BE</CompetencyId>
+    <CompetencyName>Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)</CompetencyName>
+    <CompetencyDescription>Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>Основы SQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_Основы SQL_Индексы, анализ план</CompetencyId>
+    <CompetencyName>Индексы, анализ плана запроса (EXPLAIN)</CompetencyName>
+    <CompetencyDescription>Индексы, анализ плана запроса (EXPLAIN)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>Основы SQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_Основы SQL_Мышление множествами</CompetencyId>
+    <CompetencyName>Мышление множествами (составление запросов)</CompetencyName>
+    <CompetencyDescription>Мышление множествами (составление запросов)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>Основы SQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_PostgreSQL_Особенности типов да</CompetencyId>
+    <CompetencyName>Особенности типов данных (JSONB, массивы)</CompetencyName>
+    <CompetencyDescription>Особенности типов данных (JSONB, массивы)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>PostgreSQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_PostgreSQL_Полнотекстовый поиск</CompetencyId>
+    <CompetencyName>Полнотекстовый поиск (tsvector, tsquery)</CompetencyName>
+    <CompetencyDescription>Полнотекстовый поиск (tsvector, tsquery)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>PostgreSQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_PostgreSQL_Расширения (PostGIS,</CompetencyId>
+    <CompetencyName>Расширения (PostGIS, pgcrypto)</CompetencyName>
+    <CompetencyDescription>Расширения (PostGIS, pgcrypto)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>PostgreSQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_PostgreSQL_Настройка производит</CompetencyId>
+    <CompetencyName>Настройка производительности (VACUUM, ANALYZE)</CompetencyName>
+    <CompetencyDescription>Настройка производительности (VACUUM, ANALYZE)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>PostgreSQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_PostgreSQL_Документирование схе</CompetencyId>
+    <CompetencyName>Документирование схемы (комментарии к таблицам и колонкам)</CompetencyName>
+    <CompetencyDescription>Документирование схемы (комментарии к таблицам и колонкам)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>PostgreSQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_MySQL_Особенности хранения</CompetencyId>
+    <CompetencyName>Особенности хранения (InnoDB vs MyISAM)</CompetencyName>
+    <CompetencyDescription>Особенности хранения (InnoDB vs MyISAM)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>MySQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_MySQL_Репликация и партици</CompetencyId>
+    <CompetencyName>Репликация и партиционирование</CompetencyName>
+    <CompetencyDescription>Репликация и партиционирование</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>MySQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_MySQL_Оптимизация запросов</CompetencyId>
+    <CompetencyName>Оптимизация запросов (EXPLAIN в MySQL)</CompetencyName>
+    <CompetencyDescription>Оптимизация запросов (EXPLAIN в MySQL)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>MySQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_MySQL_Документирование схе</CompetencyId>
+    <CompetencyName>Документирование схемы</CompetencyName>
+    <CompetencyDescription>Документирование схемы</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>MySQL</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_SQLite_Встраиваемая БД, осо</CompetencyId>
+    <CompetencyName>Встраиваемая БД, особенности использования</CompetencyName>
+    <CompetencyDescription>Встраиваемая БД, особенности использования</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>SQLite</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>sql_SQLite_Работа с SQLite в мо</CompetencyId>
+    <CompetencyName>Работа с SQLite в мобильных и десктопных приложениях</CompetencyName>
+    <CompetencyDescription>Работа с SQLite в мобильных и десктопных приложениях</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>sql</TaxonomyId>
+      <TaxonomyName>Базы данных: SQL &amp; СУБД</TaxonomyName>
+      <TaxonomyLevel>SQLite</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_HTML/CSS_Семантическая вёрстк</CompetencyId>
+    <CompetencyName>Семантическая вёрстка, доступность</CompetencyName>
+    <CompetencyDescription>Семантическая вёрстка, доступность</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>HTML/CSS</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_HTML/CSS_Flexbox и Grid Layou</CompetencyId>
+    <CompetencyName>Flexbox и Grid Layout</CompetencyName>
+    <CompetencyDescription>Flexbox и Grid Layout</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>HTML/CSS</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_HTML/CSS_Адаптивная вёрстка (</CompetencyId>
+    <CompetencyName>Адаптивная вёрстка (медиа-запросы)</CompetencyName>
+    <CompetencyDescription>Адаптивная вёрстка (медиа-запросы)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>HTML/CSS</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_HTML/CSS_Препроцессоры (Sass,</CompetencyId>
+    <CompetencyName>Препроцессоры (Sass, Less)</CompetencyName>
+    <CompetencyDescription>Препроцессоры (Sass, Less)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>HTML/CSS</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_JavaScript_Основы синтаксиса, т</CompetencyId>
+    <CompetencyName>Основы синтаксиса, типы данных, функции</CompetencyName>
+    <CompetencyDescription>Основы синтаксиса, типы данных, функции</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>JavaScript</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_JavaScript_DOM-манипуляции и со</CompetencyId>
+    <CompetencyName>DOM-манипуляции и события</CompetencyName>
+    <CompetencyDescription>DOM-манипуляции и события</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>JavaScript</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_JavaScript_Асинхронность (Promi</CompetencyId>
+    <CompetencyName>Асинхронность (Promise, async/await)</CompetencyName>
+    <CompetencyDescription>Асинхронность (Promise, async/await)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>JavaScript</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_JavaScript_Fetch API и работа с</CompetencyId>
+    <CompetencyName>Fetch API и работа с REST</CompetencyName>
+    <CompetencyDescription>Fetch API и работа с REST</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>JavaScript</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_JavaScript_Модули (ES6 modules)</CompetencyId>
+    <CompetencyName>Модули (ES6 modules)</CompetencyName>
+    <CompetencyDescription>Модули (ES6 modules)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>JavaScript</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_JavaScript_Документирование Jav</CompetencyId>
+    <CompetencyName>Документирование JavaScript (JSDoc: @param, @returns, @throws)</CompetencyName>
+    <CompetencyDescription>Документирование JavaScript (JSDoc: @param, @returns, @throws)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>JavaScript</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_JavaScript_Генерация документац</CompetencyId>
+    <CompetencyName>Генерация документации (JSDoc, TypeDoc для TypeScript)</CompetencyName>
+    <CompetencyDescription>Генерация документации (JSDoc, TypeDoc для TypeScript)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>JavaScript</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_PHP_Основы синтаксиса, р</CompetencyId>
+    <CompetencyName>Основы синтаксиса, работа с формами</CompetencyName>
+    <CompetencyDescription>Основы синтаксиса, работа с формами</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>PHP</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_PHP_Сессии и куки</CompetencyId>
+    <CompetencyName>Сессии и куки</CompetencyName>
+    <CompetencyDescription>Сессии и куки</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>PHP</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_PHP_Подключение к БД (My</CompetencyId>
+    <CompetencyName>Подключение к БД (MySQLi, PDO)</CompetencyName>
+    <CompetencyDescription>Подключение к БД (MySQLi, PDO)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>PHP</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_PHP_Основы ООП в PHP</CompetencyId>
+    <CompetencyName>Основы ООП в PHP</CompetencyName>
+    <CompetencyDescription>Основы ООП в PHP</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>PHP</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_PHP_Документирование PHP</CompetencyId>
+    <CompetencyName>Документирование PHP (PHPDoc: @param, @return, @throws)</CompetencyName>
+    <CompetencyDescription>Документирование PHP (PHPDoc: @param, @return, @throws)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>PHP</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>web_PHP_Инструменты: phpDocu</CompetencyId>
+    <CompetencyName>Инструменты: phpDocumentor, Doxygen</CompetencyName>
+    <CompetencyDescription>Инструменты: phpDocumentor, Doxygen</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>web</TaxonomyId>
+      <TaxonomyName>Веб-разработка</TaxonomyName>
+      <TaxonomyLevel>PHP</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Основы языка Kotlin </CompetencyId>
+    <CompetencyName>Основы языка Kotlin (синтаксис, null safety, корутины)</CompetencyName>
+    <CompetencyDescription>Основы языка Kotlin (синтаксис, null safety, корутины)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Android SDK (Activit</CompetencyId>
+    <CompetencyName>Android SDK (Activity, Fragment, жизненный цикл)</CompetencyName>
+    <CompetencyDescription>Android SDK (Activity, Fragment, жизненный цикл)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Jetpack Compose (com</CompetencyId>
+    <CompetencyName>Jetpack Compose (composable-функции, state, модификаторы)</CompetencyName>
+    <CompetencyDescription>Jetpack Compose (composable-функции, state, модификаторы)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Навигация в Compose</CompetencyId>
+    <CompetencyName>Навигация в Compose</CompetencyName>
+    <CompetencyDescription>Навигация в Compose</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Архитектурные компон</CompetencyId>
+    <CompetencyName>Архитектурные компоненты (ViewModel, LiveData/Flow)</CompetencyName>
+    <CompetencyDescription>Архитектурные компоненты (ViewModel, LiveData/Flow)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Работа с сетью (Retr</CompetencyId>
+    <CompetencyName>Работа с сетью (Retrofit, Kotlin Serialization)</CompetencyName>
+    <CompetencyDescription>Работа с сетью (Retrofit, Kotlin Serialization)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Базы данных (Room)</CompetencyId>
+    <CompetencyName>Базы данных (Room)</CompetencyName>
+    <CompetencyDescription>Базы данных (Room)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_DI (Dagger, Hilt)</CompetencyId>
+    <CompetencyName>DI (Dagger, Hilt)</CompetencyName>
+    <CompetencyDescription>DI (Dagger, Hilt)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Тестирование на Andr</CompetencyId>
+    <CompetencyName>Тестирование на Android</CompetencyName>
+    <CompetencyDescription>Тестирование на Android</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>mobile_Android (Kotlin)_Документирование Kot</CompetencyId>
+    <CompetencyName>Документирование Kotlin (KDoc, Dokka)</CompetencyName>
+    <CompetencyDescription>Документирование Kotlin (KDoc, Dokka)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>mobile</TaxonomyId>
+      <TaxonomyName>Мобильная разработка</TaxonomyName>
+      <TaxonomyLevel>Android (Kotlin)</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>docker_Docker_Основные команды (do</CompetencyId>
+    <CompetencyName>Основные команды (docker run, build, push)</CompetencyName>
+    <CompetencyDescription>Основные команды (docker run, build, push)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>docker</TaxonomyId>
+      <TaxonomyName>Контейнеризация</TaxonomyName>
+      <TaxonomyLevel>Docker</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>docker_Docker_Создание Dockerfile,</CompetencyId>
+    <CompetencyName>Создание Dockerfile, оптимизация слоёв</CompetencyName>
+    <CompetencyDescription>Создание Dockerfile, оптимизация слоёв</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>docker</TaxonomyId>
+      <TaxonomyName>Контейнеризация</TaxonomyName>
+      <TaxonomyLevel>Docker</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>docker_Docker_Docker Compose (запу</CompetencyId>
+    <CompetencyName>Docker Compose (запуск многоконтейнерных приложений)</CompetencyName>
+    <CompetencyDescription>Docker Compose (запуск многоконтейнерных приложений)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>docker</TaxonomyId>
+      <TaxonomyName>Контейнеризация</TaxonomyName>
+      <TaxonomyLevel>Docker</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>docker_Docker_Сетевое взаимодейств</CompetencyId>
+    <CompetencyName>Сетевое взаимодействие контейнеров</CompetencyName>
+    <CompetencyDescription>Сетевое взаимодействие контейнеров</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>docker</TaxonomyId>
+      <TaxonomyName>Контейнеризация</TaxonomyName>
+      <TaxonomyLevel>Docker</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>docker_Docker_Volumes и работа с д</CompetencyId>
+    <CompetencyName>Volumes и работа с данными</CompetencyName>
+    <CompetencyDescription>Volumes и работа с данными</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>docker</TaxonomyId>
+      <TaxonomyName>Контейнеризация</TaxonomyName>
+      <TaxonomyLevel>Docker</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>docker_Docker_CI/CD интеграция (Gi</CompetencyId>
+    <CompetencyName>CI/CD интеграция (GitLab CI, GitHub Actions)</CompetencyName>
+    <CompetencyDescription>CI/CD интеграция (GitLab CI, GitHub Actions)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>docker</TaxonomyId>
+      <TaxonomyName>Контейнеризация</TaxonomyName>
+      <TaxonomyLevel>Docker</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>docker_Docker_Документирование Doc</CompetencyId>
+    <CompetencyName>Документирование Docker-образов (docker inspect, labels)</CompetencyName>
+    <CompetencyDescription>Документирование Docker-образов (docker inspect, labels)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>docker</TaxonomyId>
+      <TaxonomyName>Контейнеризация</TaxonomyName>
+      <TaxonomyLevel>Docker</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>git_Базовые команды_init, clone, add, co</CompetencyId>
+    <CompetencyName>init, clone, add, commit, push, pull</CompetencyName>
+    <CompetencyDescription>init, clone, add, commit, push, pull</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>git</TaxonomyId>
+      <TaxonomyName>Инструменты: Git</TaxonomyName>
+      <TaxonomyLevel>Базовые команды</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>git_Базовые команды_Ветвление и слияние </CompetencyId>
+    <CompetencyName>Ветвление и слияние (branch, merge, разрешение конфликтов)</CompetencyName>
+    <CompetencyDescription>Ветвление и слияние (branch, merge, разрешение конфликтов)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>git</TaxonomyId>
+      <TaxonomyName>Инструменты: Git</TaxonomyName>
+      <TaxonomyLevel>Базовые команды</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>git_Базовые команды_Осмысленные коммиты </CompetencyId>
+    <CompetencyName>Осмысленные коммиты (понятные сообщения)</CompetencyName>
+    <CompetencyDescription>Осмысленные коммиты (понятные сообщения)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>git</TaxonomyId>
+      <TaxonomyName>Инструменты: Git</TaxonomyName>
+      <TaxonomyLevel>Базовые команды</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>git_Базовые команды_Командная работа (ра</CompetencyId>
+    <CompetencyName>Командная работа (работа с общим репозиторием, pull requests)</CompetencyName>
+    <CompetencyDescription>Командная работа (работа с общим репозиторием, pull requests)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>git</TaxonomyId>
+      <TaxonomyName>Инструменты: Git</TaxonomyName>
+      <TaxonomyLevel>Базовые команды</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>team_Навыки коммуникации_Участие в код-ревью:</CompetencyId>
+    <CompetencyName>Участие в код-ревью: давать конструктивную обратную связь</CompetencyName>
+    <CompetencyDescription>Участие в код-ревью: давать конструктивную обратную связь</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>team</TaxonomyId>
+      <TaxonomyName>Взаимодействие в команде</TaxonomyName>
+      <TaxonomyLevel>Навыки коммуникации</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>team_Навыки коммуникации_Участие в код-ревью:</CompetencyId>
+    <CompetencyName>Участие в код-ревью: принимать замечания и анализировать</CompetencyName>
+    <CompetencyDescription>Участие в код-ревью: принимать замечания и анализировать</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>team</TaxonomyId>
+      <TaxonomyName>Взаимодействие в команде</TaxonomyName>
+      <TaxonomyLevel>Навыки коммуникации</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>team_Навыки коммуникации_Совместная разработк</CompetencyId>
+    <CompetencyName>Совместная разработка в Git (ветки, мерж-реквесты)</CompetencyName>
+    <CompetencyDescription>Совместная разработка в Git (ветки, мерж-реквесты)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>team</TaxonomyId>
+      <TaxonomyName>Взаимодействие в команде</TaxonomyName>
+      <TaxonomyLevel>Навыки коммуникации</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>team_Навыки коммуникации_Ясная устная и письм</CompetencyId>
+    <CompetencyName>Ясная устная и письменная коммуникация</CompetencyName>
+    <CompetencyDescription>Ясная устная и письменная коммуникация</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>team</TaxonomyId>
+      <TaxonomyName>Взаимодействие в команде</TaxonomyName>
+      <TaxonomyLevel>Навыки коммуникации</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>team_Навыки коммуникации_Работа по Agile/Scru</CompetencyId>
+    <CompetencyName>Работа по Agile/Scrum: роли, стендапы, оценка задач</CompetencyName>
+    <CompetencyDescription>Работа по Agile/Scrum: роли, стендапы, оценка задач</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>team</TaxonomyId>
+      <TaxonomyName>Взаимодействие в команде</TaxonomyName>
+      <TaxonomyLevel>Навыки коммуникации</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>team_Навыки коммуникации_Менторство и обмен з</CompetencyId>
+    <CompetencyName>Менторство и обмен знаниями</CompetencyName>
+    <CompetencyDescription>Менторство и обмен знаниями</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>team</TaxonomyId>
+      <TaxonomyName>Взаимодействие в команде</TaxonomyName>
+      <TaxonomyLevel>Навыки коммуникации</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>prof_Общие практики_Отладка (точки остан</CompetencyId>
+    <CompetencyName>Отладка (точки останова, пошаговое выполнение)</CompetencyName>
+    <CompetencyDescription>Отладка (точки останова, пошаговое выполнение)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>prof</TaxonomyId>
+      <TaxonomyName>Профессиональные практики</TaxonomyName>
+      <TaxonomyLevel>Общие практики</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>prof_Общие практики_Профилирование и опт</CompetencyId>
+    <CompetencyName>Профилирование и оптимизация производительности</CompetencyName>
+    <CompetencyDescription>Профилирование и оптимизация производительности</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>hard</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>prof</TaxonomyId>
+      <TaxonomyName>Профессиональные практики</TaxonomyName>
+      <TaxonomyLevel>Общие практики</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>prof_Общие практики_Проактивность (самос</CompetencyId>
+    <CompetencyName>Проактивность (самостоятельный поиск и исправление ошибок)</CompetencyName>
+    <CompetencyDescription>Проактивность (самостоятельный поиск и исправление ошибок)</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>prof</TaxonomyId>
+      <TaxonomyName>Профессиональные практики</TaxonomyName>
+      <TaxonomyLevel>Общие практики</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>prof_Общие практики_Восприятие обратной </CompetencyId>
+    <CompetencyName>Восприятие обратной связи и работа над собой</CompetencyName>
+    <CompetencyDescription>Восприятие обратной связи и работа над собой</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>prof</TaxonomyId>
+      <TaxonomyName>Профессиональные практики</TaxonomyName>
+      <TaxonomyLevel>Общие практики</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+  <Competency>
+    <CompetencyId>prof_Общие практики_Документирование код</CompetencyId>
+    <CompetencyName>Документирование кода (общие принципы) и создание инструкций</CompetencyName>
+    <CompetencyDescription>Документирование кода (общие принципы) и создание инструкций</CompetencyDescription>
+    <CompetencyDimension>
+      <DimensionName>Skill Type</DimensionName>
+      <DimensionValue>soft</DimensionValue>
+    </CompetencyDimension>
+    <Taxonomy>
+      <TaxonomyId>prof</TaxonomyId>
+      <TaxonomyName>Профессиональные практики</TaxonomyName>
+      <TaxonomyLevel>Общие практики</TaxonomyLevel>
+    </Taxonomy>
+  </Competency>
+</CompetencyModel>

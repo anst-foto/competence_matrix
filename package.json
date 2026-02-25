@@ -30,7 +30,11 @@
     "version": "npm run build && git add dist",
     "postversion": "git push && git push --tags",
     "prepare": "husky install",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "convert:rdceo": "node src/scripts/converters/toRdceo.js",
+    "convert:hrxml": "node src/scripts/converters/toHrXml.js",
+    "convert:turtle": "node src/scripts/converters/toTurtle.js",
+    "convert:all": "npm run convert:rdceo && npm run convert:hrxml && npm run convert:turtle"
   },
   "repository": {
     "type": "git",
@@ -41,7 +45,9 @@
     "ajv": "^8.18.0",
     "fs-extra": "^11.1.1",
     "less": "^4.2.0",
-    "pug": "^3.0.2"
+    "n3": "^2.0.1",
+    "pug": "^3.0.2",
+    "xmlbuilder2": "^4.0.3"
   },
   "devDependencies": {
     "@types/node": "^25.3.0",

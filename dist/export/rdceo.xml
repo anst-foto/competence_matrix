@@ -1,0 +1,2716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdceo xmlns="http://www.imsglobal.org/xsd/imsrdceo_rootv1p0"
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsrdceo_rootv1p0 imsrdceo_rootv1p0.xsd">
+  <rdceo>
+    <identifier>cs________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Структуры данных</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Понимание принципа работы хеш-таблиц и коллизий</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Понимание принципа работы хеш-таблиц и коллизий</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Структуры данных</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Базовое понимание деревьев (для иерархий, индексов БД)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Базовое понимание деревьев (для иерархий, индексов БД)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Структуры данных</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Аргументированный выбор структуры данных под задачу</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Аргументированный выбор структуры данных под задачу</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Структуры данных</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Анализ сложности (время доступа, использование памяти)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Анализ сложности (время доступа, использование памяти)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Структуры данных</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs_________________________________________</identifier>
+    <title>
+      <langstring language="ru">Линейный и бинарный поиск. Понимание основных сортировок</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Линейный и бинарный поиск. Понимание основных сортировок</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Алгоритмы</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs_____________________________Big_O__O_1__</identifier>
+    <title>
+      <langstring language="ru">Понимание нотации Big O (O(1), O(n), O(log n), O(n²))</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Понимание нотации Big O (O(1), O(n), O(log n), O(n²))</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Алгоритмы</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs_________________________________________</identifier>
+    <title>
+      <langstring language="ru">Оптимизационное мышление (оценка эффективности)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Оптимизационное мышление (оценка эффективности)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Алгоритмы</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs_________________________________________</identifier>
+    <title>
+      <langstring language="ru">Декомпозиция задачи на алгоритмические шаги</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Декомпозиция задачи на алгоритмические шаги</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Алгоритмы</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs______________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Понимание и применение принципов SOLID</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Понимание и применение принципов SOLID</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Архитектура &amp; Паттерны</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs______________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Архитектура &amp; Паттерны</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs______________________________________________Singleto</identifier>
+    <title>
+      <langstring language="ru">Порождающие паттерны: Singleton, Builder, Prototype</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Порождающие паттерны: Singleton, Builder, Prototype</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Архитектура &amp; Паттерны</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs______________________________________________Adapter_</identifier>
+    <title>
+      <langstring language="ru">Структурные паттерны: Adapter, Decorator, Facade</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Структурные паттерны: Adapter, Decorator, Facade</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Архитектура &amp; Паттерны</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs________________________________________________Strate</identifier>
+    <title>
+      <langstring language="ru">Поведенческие паттерны: Strategy, Command, Iterator</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Поведенческие паттерны: Strategy, Command, Iterator</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Архитектура &amp; Паттерны</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs______________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Паттерны корпоративных приложений: Unit of Work, Identity Map</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Паттерны корпоративных приложений: Unit of Work, Identity Map</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Архитектура &amp; Паттерны</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>cs______________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Абстрактное мышление и применение известных шаблонов</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Абстрактное мышление и применение известных шаблонов</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Computer Science → Архитектура &amp; Паттерны</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp________C________________________________</identifier>
+    <title>
+      <langstring language="ru">Синтаксис: переменные, операторы, управляющие конструкции</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Синтаксис: переменные, операторы, управляющие конструкции</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Основы C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp________C________________________________</identifier>
+    <title>
+      <langstring language="ru">ООП: создание классов, инкапсуляция, наследование, полиморфизм</langstring>
+    </title>
+    <description>
+      <langstring language="ru">ООП: создание классов, инкапсуляция, наследование, полиморфизм</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Основы C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp________C_________________________try_cat</identifier>
+    <title>
+      <langstring language="ru">Работа с исключениями (try-catch-finally, пользовательские исключения)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Работа с исключениями (try-catch-finally, пользовательские исключения)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Основы C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp________C________________________________</identifier>
+    <title>
+      <langstring language="ru">Читаемость кода (соглашения об именовании)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Читаемость кода (соглашения об именовании)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Основы C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_________________________C__LINQ__________________________</identifier>
+    <title>
+      <langstring language="ru">LINQ (запросы и методы расширений)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">LINQ (запросы и методы расширений)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Продвинутые возможности C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_________________________C_________________async_await__Ta</identifier>
+    <title>
+      <langstring language="ru">Асинхронность (async/await, Task)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Асинхронность (async/await, Task)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Продвинутые возможности C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_________________________C_____________________</identifier>
+    <title>
+      <langstring language="ru">Рефлексия, атрибуты</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Рефлексия, атрибуты</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Продвинутые возможности C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_________________________C__Generics______________________</identifier>
+    <title>
+      <langstring language="ru">Generics, ковариантность и контравариантность</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Generics, ковариантность и контравариантность</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Продвинутые возможности C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_________________________C________________________________</identifier>
+    <title>
+      <langstring language="ru">Оптимизация (память, производительность)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Оптимизация (память, производительность)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Продвинутые возможности C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_GUI__WPF___Avalonia__XAML__________________________</identifier>
+    <title>
+      <langstring language="ru">XAML: базовая разметка, панели компоновки (StackPanel, Grid)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">XAML: базовая разметка, панели компоновки (StackPanel, Grid)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → GUI (WPF / Avalonia)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_GUI__WPF___Avalonia__Data_Binding__________________</identifier>
+    <title>
+      <langstring language="ru">Data Binding (привязка к свойствам ViewModel, режимы)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Data Binding (привязка к свойствам ViewModel, режимы)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → GUI (WPF / Avalonia)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_GUI__WPF___Avalonia___________ICommand__ReactiveCom</identifier>
+    <title>
+      <langstring language="ru">Команды (ICommand, ReactiveCommand)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Команды (ICommand, ReactiveCommand)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → GUI (WPF / Avalonia)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_GUI__WPF___Avalonia________________________________</identifier>
+    <title>
+      <langstring language="ru">Стили, триггеры, шаблоны элементов управления</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Стили, триггеры, шаблоны элементов управления</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → GUI (WPF / Avalonia)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_GUI__WPF___Avalonia________________________________</identifier>
+    <title>
+      <langstring language="ru">Навигация между окнами/страницами</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Навигация между окнами/страницами</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → GUI (WPF / Avalonia)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_GUI__WPF___Avalonia__UX____________________________</identifier>
+    <title>
+      <langstring language="ru">UX-мышление и разделение логики (MVVM)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">UX-мышление и разделение логики (MVVM)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → GUI (WPF / Avalonia)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________NET_ADO_NET__SqlConnection__SqlCom</identifier>
+    <title>
+      <langstring language="ru">ADO.NET (SqlConnection, SqlCommand, SqlDataReader)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">ADO.NET (SqlConnection, SqlCommand, SqlDataReader)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Доступ к данным в .NET</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________NET_Dapper_____________Query_T___E</identifier>
+    <title>
+      <langstring language="ru">Dapper (установка, Query&lt;T&gt;, Execute)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Dapper (установка, Query&lt;T&gt;, Execute)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Доступ к данным в .NET</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________NET_Entity_Framework_Core__DbConte</identifier>
+    <title>
+      <langstring language="ru">Entity Framework Core (DbContext, миграции, LINQ-запросы)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Entity Framework Core (DbContext, миграции, LINQ-запросы)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Доступ к данным в .NET</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________NET_______________________________</identifier>
+    <title>
+      <langstring language="ru">Выбор инструмента под задачу (Dapper vs EF Core)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Выбор инструмента под задачу (Dapper vs EF Core)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Доступ к данным в .NET</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_____________________________________xUnit_N</identifier>
+    <title>
+      <langstring language="ru">Написание юнит-тестов (xUnit/NUnit)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Написание юнит-тестов (xUnit/NUnit)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Тестирование</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________________mock___________M</identifier>
+    <title>
+      <langstring language="ru">Использование mock-объектов (Moq, NSubstitute)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Использование mock-объектов (Moq, NSubstitute)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Тестирование</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_________________________________________</identifier>
+    <title>
+      <langstring language="ru">Интеграционное тестирование</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Интеграционное тестирование</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Тестирование</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp______________TDD___________________________</identifier>
+    <title>
+      <langstring language="ru">TDD (разработка через тестирование)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">TDD (разработка через тестирование)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Тестирование</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_ASP_NET_Core__________Web_API______________</identifier>
+    <title>
+      <langstring language="ru">Создание Web API (контроллеры, маршрутизация)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Создание Web API (контроллеры, маршрутизация)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → ASP.NET Core</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_ASP_NET_Core_Middleware____________________</identifier>
+    <title>
+      <langstring language="ru">Middleware и конвейер обработки запросов</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Middleware и конвейер обработки запросов</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → ASP.NET Core</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_ASP_NET_Core_________________________DI_</identifier>
+    <title>
+      <langstring language="ru">Внедрение зависимостей (DI)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Внедрение зависимостей (DI)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → ASP.NET Core</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_ASP_NET_Core_______________________________</identifier>
+    <title>
+      <langstring language="ru">Аутентификация и авторизация (JWT, Identity)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Аутентификация и авторизация (JWT, Identity)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → ASP.NET Core</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_ASP_NET_Core______________________________E</identifier>
+    <title>
+      <langstring language="ru">Работа с базами данных через EF Core в ASP.NET</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Работа с базами данных через EF Core в ASP.NET</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → ASP.NET Core</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp_ASP_NET_Core_Razor_Pages___MVC</identifier>
+    <title>
+      <langstring language="ru">Razor Pages / MVC</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Razor Pages / MVC</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → ASP.NET Core</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________C__XML___________________________</identifier>
+    <title>
+      <langstring language="ru">XML-комментарии для публичных API (summary, param, returns)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">XML-комментарии для публичных API (summary, param, returns)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Документирование в C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________C__________________________DocFX_</identifier>
+    <title>
+      <langstring language="ru">Генерация документации (DocFX)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Генерация документации (DocFX)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Документирование в C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>csharp____________________C___________________REST_API__Swa</identifier>
+    <title>
+      <langstring language="ru">Документирование REST API (Swagger/OpenAPI в ASP.NET Core)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование REST API (Swagger/OpenAPI в ASP.NET Core)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Язык C# и .NET → Документирование в C#</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql________SQL_DDL__CREATE_ALTER_TABLE_______</identifier>
+    <title>
+      <langstring language="ru">DDL (CREATE/ALTER TABLE, ключи)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">DDL (CREATE/ALTER TABLE, ключи)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → Основы SQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql________SQL_DML__SELECT___JOIN__GROUP_BY__</identifier>
+    <title>
+      <langstring language="ru">DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → Основы SQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql________SQL_____________ACID__BEGIN__COMMI</identifier>
+    <title>
+      <langstring language="ru">Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → Основы SQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql________SQL_______________________________</identifier>
+    <title>
+      <langstring language="ru">Индексы, анализ плана запроса (EXPLAIN)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Индексы, анализ плана запроса (EXPLAIN)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → Основы SQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql________SQL_______________________________</identifier>
+    <title>
+      <langstring language="ru">Мышление множествами (составление запросов)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Мышление множествами (составление запросов)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → Основы SQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_PostgreSQL___________________________JSON</identifier>
+    <title>
+      <langstring language="ru">Особенности типов данных (JSONB, массивы)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Особенности типов данных (JSONB, массивы)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → PostgreSQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_PostgreSQL_______________________tsvector</identifier>
+    <title>
+      <langstring language="ru">Полнотекстовый поиск (tsvector, tsquery)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Полнотекстовый поиск (tsvector, tsquery)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → PostgreSQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_PostgreSQL_____________PostGIS__pgcrypto_</identifier>
+    <title>
+      <langstring language="ru">Расширения (PostGIS, pgcrypto)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Расширения (PostGIS, pgcrypto)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → PostgreSQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_PostgreSQL_______________________________</identifier>
+    <title>
+      <langstring language="ru">Настройка производительности (VACUUM, ANALYZE)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Настройка производительности (VACUUM, ANALYZE)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → PostgreSQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_PostgreSQL_______________________________</identifier>
+    <title>
+      <langstring language="ru">Документирование схемы (комментарии к таблицам и колонкам)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование схемы (комментарии к таблицам и колонкам)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → PostgreSQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_MySQL_______________________InnoDB_v</identifier>
+    <title>
+      <langstring language="ru">Особенности хранения (InnoDB vs MyISAM)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Особенности хранения (InnoDB vs MyISAM)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → MySQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_MySQL_______________________________</identifier>
+    <title>
+      <langstring language="ru">Репликация и партиционирование</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Репликация и партиционирование</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → MySQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_MySQL_______________________EXPLAIN_</identifier>
+    <title>
+      <langstring language="ru">Оптимизация запросов (EXPLAIN в MySQL)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Оптимизация запросов (EXPLAIN в MySQL)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → MySQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_MySQL_______________________</identifier>
+    <title>
+      <langstring language="ru">Документирование схемы</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование схемы</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → MySQL</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_SQLite_______________________________</identifier>
+    <title>
+      <langstring language="ru">Встраиваемая БД, особенности использования</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Встраиваемая БД, особенности использования</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → SQLite</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>sql_SQLite__________SQLite_______________</identifier>
+    <title>
+      <langstring language="ru">Работа с SQLite в мобильных и десктопных приложениях</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Работа с SQLite в мобильных и десктопных приложениях</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Базы данных: SQL &amp; СУБД → SQLite</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_HTML_CSS_______________________________</identifier>
+    <title>
+      <langstring language="ru">Семантическая вёрстка, доступность</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Семантическая вёрстка, доступность</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → HTML/CSS</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_HTML_CSS_Flexbox___Grid_Layout</identifier>
+    <title>
+      <langstring language="ru">Flexbox и Grid Layout</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Flexbox и Grid Layout</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → HTML/CSS</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_HTML_CSS_______________________________</identifier>
+    <title>
+      <langstring language="ru">Адаптивная вёрстка (медиа-запросы)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Адаптивная вёрстка (медиа-запросы)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → HTML/CSS</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_HTML_CSS________________Sass__Less_</identifier>
+    <title>
+      <langstring language="ru">Препроцессоры (Sass, Less)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Препроцессоры (Sass, Less)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → HTML/CSS</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_JavaScript_______________________________</identifier>
+    <title>
+      <langstring language="ru">Основы синтаксиса, типы данных, функции</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Основы синтаксиса, типы данных, функции</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → JavaScript</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_JavaScript_DOM______________________</identifier>
+    <title>
+      <langstring language="ru">DOM-манипуляции и события</langstring>
+    </title>
+    <description>
+      <langstring language="ru">DOM-манипуляции и события</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → JavaScript</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_JavaScript________________Promise__async_</identifier>
+    <title>
+      <langstring language="ru">Асинхронность (Promise, async/await)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Асинхронность (Promise, async/await)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → JavaScript</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_JavaScript_Fetch_API____________REST</identifier>
+    <title>
+      <langstring language="ru">Fetch API и работа с REST</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Fetch API и работа с REST</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → JavaScript</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_JavaScript_________ES6_modules_</identifier>
+    <title>
+      <langstring language="ru">Модули (ES6 modules)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Модули (ES6 modules)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → JavaScript</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_JavaScript__________________JavaScript__J</identifier>
+    <title>
+      <langstring language="ru">Документирование JavaScript (JSDoc: @param, @returns, @throws)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование JavaScript (JSDoc: @param, @returns, @throws)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → JavaScript</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_JavaScript_________________________JSDoc_</identifier>
+    <title>
+      <langstring language="ru">Генерация документации (JSDoc, TypeDoc для TypeScript)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Генерация документации (JSDoc, TypeDoc для TypeScript)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → JavaScript</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_PHP_______________________________</identifier>
+    <title>
+      <langstring language="ru">Основы синтаксиса, работа с формами</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Основы синтаксиса, работа с формами</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → PHP</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_PHP______________</identifier>
+    <title>
+      <langstring language="ru">Сессии и куки</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Сессии и куки</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → PHP</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_PHP___________________MySQLi__PDO_</identifier>
+    <title>
+      <langstring language="ru">Подключение к БД (MySQLi, PDO)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Подключение к БД (MySQLi, PDO)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → PHP</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_PHP______________PHP</identifier>
+    <title>
+      <langstring language="ru">Основы ООП в PHP</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Основы ООП в PHP</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → PHP</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_PHP__________________PHP__PHPDoc__</identifier>
+    <title>
+      <langstring language="ru">Документирование PHP (PHPDoc: @param, @return, @throws)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование PHP (PHPDoc: @param, @return, @throws)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → PHP</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>web_PHP______________phpDocumentor__Do</identifier>
+    <title>
+      <langstring language="ru">Инструменты: phpDocumentor, Doxygen</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Инструменты: phpDocumentor, Doxygen</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Веб-разработка → PHP</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin_______________Kotlin___________</identifier>
+    <title>
+      <langstring language="ru">Основы языка Kotlin (синтаксис, null safety, корутины)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Основы языка Kotlin (синтаксис, null safety, корутины)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin__Android_SDK__Activity__Fragmen</identifier>
+    <title>
+      <langstring language="ru">Android SDK (Activity, Fragment, жизненный цикл)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Android SDK (Activity, Fragment, жизненный цикл)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin__Jetpack_Compose__composable___</identifier>
+    <title>
+      <langstring language="ru">Jetpack Compose (composable-функции, state, модификаторы)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Jetpack Compose (composable-функции, state, модификаторы)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin______________Compose</identifier>
+    <title>
+      <langstring language="ru">Навигация в Compose</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Навигация в Compose</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin____________________________View</identifier>
+    <title>
+      <langstring language="ru">Архитектурные компоненты (ViewModel, LiveData/Flow)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Архитектурные компоненты (ViewModel, LiveData/Flow)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin__________________Retrofit__Kotl</identifier>
+    <title>
+      <langstring language="ru">Работа с сетью (Retrofit, Kotlin Serialization)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Работа с сетью (Retrofit, Kotlin Serialization)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin_______________Room_</identifier>
+    <title>
+      <langstring language="ru">Базы данных (Room)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Базы данных (Room)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin__DI__Dagger__Hilt_</identifier>
+    <title>
+      <langstring language="ru">DI (Dagger, Hilt)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">DI (Dagger, Hilt)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin__________________Android</identifier>
+    <title>
+      <langstring language="ru">Тестирование на Android</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Тестирование на Android</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>mobile_Android__Kotlin___________________Kotlin__KDoc_</identifier>
+    <title>
+      <langstring language="ru">Документирование Kotlin (KDoc, Dokka)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование Kotlin (KDoc, Dokka)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Мобильная разработка → Android (Kotlin)</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>docker_Docker___________________docker_run__</identifier>
+    <title>
+      <langstring language="ru">Основные команды (docker run, build, push)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Основные команды (docker run, build, push)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Контейнеризация → Docker</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>docker_Docker__________Dockerfile___________</identifier>
+    <title>
+      <langstring language="ru">Создание Dockerfile, оптимизация слоёв</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Создание Dockerfile, оптимизация слоёв</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Контейнеризация → Docker</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>docker_Docker_Docker_Compose________________</identifier>
+    <title>
+      <langstring language="ru">Docker Compose (запуск многоконтейнерных приложений)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Docker Compose (запуск многоконтейнерных приложений)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Контейнеризация → Docker</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>docker_Docker_______________________________</identifier>
+    <title>
+      <langstring language="ru">Сетевое взаимодействие контейнеров</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Сетевое взаимодействие контейнеров</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Контейнеризация → Docker</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>docker_Docker_Volumes___________________</identifier>
+    <title>
+      <langstring language="ru">Volumes и работа с данными</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Volumes и работа с данными</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Контейнеризация → Docker</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>docker_Docker_CI_CD_____________GitLab_CI__G</identifier>
+    <title>
+      <langstring language="ru">CI/CD интеграция (GitLab CI, GitHub Actions)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">CI/CD интеграция (GitLab CI, GitHub Actions)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Контейнеризация → Docker</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>docker_Docker__________________Docker_______</identifier>
+    <title>
+      <langstring language="ru">Документирование Docker-образов (docker inspect, labels)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование Docker-образов (docker inspect, labels)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Контейнеризация → Docker</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>git_________________init__clone__add__commit__push</identifier>
+    <title>
+      <langstring language="ru">init, clone, add, commit, push, pull</langstring>
+    </title>
+    <description>
+      <langstring language="ru">init, clone, add, commit, push, pull</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Инструменты: Git → Базовые команды</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>git______________________________________branch__m</identifier>
+    <title>
+      <langstring language="ru">Ветвление и слияние (branch, merge, разрешение конфликтов)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Ветвление и слияние (branch, merge, разрешение конфликтов)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Инструменты: Git → Базовые команды</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>git_______________________________________________</identifier>
+    <title>
+      <langstring language="ru">Осмысленные коммиты (понятные сообщения)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Осмысленные коммиты (понятные сообщения)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Инструменты: Git → Базовые команды</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>git_______________________________________________</identifier>
+    <title>
+      <langstring language="ru">Командная работа (работа с общим репозиторием, pull requests)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Командная работа (работа с общим репозиторием, pull requests)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Инструменты: Git → Базовые команды</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>team___________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Участие в код-ревью: давать конструктивную обратную связь</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Участие в код-ревью: давать конструктивную обратную связь</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Взаимодействие в команде → Навыки коммуникации</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>team___________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Участие в код-ревью: принимать замечания и анализировать</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Участие в код-ревью: принимать замечания и анализировать</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Взаимодействие в команде → Навыки коммуникации</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>team_____________________________________________Git___</identifier>
+    <title>
+      <langstring language="ru">Совместная разработка в Git (ветки, мерж-реквесты)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Совместная разработка в Git (ветки, мерж-реквесты)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Взаимодействие в команде → Навыки коммуникации</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>team___________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Ясная устная и письменная коммуникация</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Ясная устная и письменная коммуникация</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Взаимодействие в команде → Навыки коммуникации</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>team_______________________________Agile_Scrum_________</identifier>
+    <title>
+      <langstring language="ru">Работа по Agile/Scrum: роли, стендапы, оценка задач</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Работа по Agile/Scrum: роли, стендапы, оценка задач</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Взаимодействие в команде → Навыки коммуникации</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>team________________________________________________</identifier>
+    <title>
+      <langstring language="ru">Менторство и обмен знаниями</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Менторство и обмен знаниями</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Взаимодействие в команде → Навыки коммуникации</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>prof______________________________________________</identifier>
+    <title>
+      <langstring language="ru">Отладка (точки останова, пошаговое выполнение)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Отладка (точки останова, пошаговое выполнение)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Профессиональные практики → Общие практики</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>prof______________________________________________</identifier>
+    <title>
+      <langstring language="ru">Профилирование и оптимизация производительности</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Профилирование и оптимизация производительности</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">hard</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Профессиональные практики → Общие практики</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>prof______________________________________________</identifier>
+    <title>
+      <langstring language="ru">Проактивность (самостоятельный поиск и исправление ошибок)</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Проактивность (самостоятельный поиск и исправление ошибок)</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Профессиональные практики → Общие практики</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>prof______________________________________________</identifier>
+    <title>
+      <langstring language="ru">Восприятие обратной связи и работа над собой</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Восприятие обратной связи и работа над собой</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Профессиональные практики → Общие практики</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+  <rdceo>
+    <identifier>prof______________________________________________</identifier>
+    <title>
+      <langstring language="ru">Документирование кода (общие принципы) и создание инструкций</langstring>
+    </title>
+    <description>
+      <langstring language="ru">Документирование кода (общие принципы) и создание инструкций</langstring>
+    </description>
+    <definition>
+      <statement>
+        <statementname>type</statementname>
+        <statementtoken source="http://yourdomain.com/skill-type">soft</statementtoken>
+      </statement>
+    </definition>
+    <metadata>
+      <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+        <general>
+          <title>
+            <string language="ru">Профессиональные практики → Общие практики</string>
+          </title>
+        </general>
+      </lom>
+    </metadata>
+  </rdceo>
+</rdceo>

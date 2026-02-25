@@ -1,0 +1,428 @@
+@prefix : <http://yourdomain.org/matrix#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix coreo: <https://purl.org/coreo#>.
+
+:cs a coreo:CompetenceCategory;
+    rdfs:label "Computer Science"@ru.
+:cs_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Структуры данных"@ru;
+    coreo:partOf :cs.
+:cs_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения"@ru;
+    coreo:partOf :cs_sub0.
+:cs_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "Понимание принципа работы хеш-таблиц и коллизий"@ru;
+    coreo:partOf :cs_sub0.
+:cs_sub0_skill2 a coreo:HardSkill;
+    rdfs:label "Базовое понимание деревьев (для иерархий, индексов БД)"@ru;
+    coreo:partOf :cs_sub0.
+:cs_sub0_skill3 a coreo:SoftSkill;
+    rdfs:label "Аргументированный выбор структуры данных под задачу"@ru;
+    coreo:partOf :cs_sub0.
+:cs_sub0_skill4 a coreo:SoftSkill;
+    rdfs:label "Анализ сложности (время доступа, использование памяти)"@ru;
+    coreo:partOf :cs_sub0.
+:cs_sub1 a coreo:CompetenceSubcategory;
+    rdfs:label "Алгоритмы"@ru;
+    coreo:partOf :cs.
+:cs_sub1_skill0 a coreo:HardSkill;
+    rdfs:label "Линейный и бинарный поиск. Понимание основных сортировок"@ru;
+    coreo:partOf :cs_sub1.
+:cs_sub1_skill1 a coreo:HardSkill;
+    rdfs:label "Понимание нотации Big O (O(1), O(n), O(log n), O(n²))"@ru;
+    coreo:partOf :cs_sub1.
+:cs_sub1_skill2 a coreo:SoftSkill;
+    rdfs:label "Оптимизационное мышление (оценка эффективности)"@ru;
+    coreo:partOf :cs_sub1.
+:cs_sub1_skill3 a coreo:SoftSkill;
+    rdfs:label "Декомпозиция задачи на алгоритмические шаги"@ru;
+    coreo:partOf :cs_sub1.
+:cs_sub2 a coreo:CompetenceSubcategory;
+    rdfs:label "Архитектура & Паттерны"@ru;
+    coreo:partOf :cs.
+:cs_sub2_skill0 a coreo:HardSkill;
+    rdfs:label "Понимание и применение принципов SOLID"@ru;
+    coreo:partOf :cs_sub2.
+:cs_sub2_skill1 a coreo:HardSkill;
+    rdfs:label "Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)"@ru;
+    coreo:partOf :cs_sub2.
+:cs_sub2_skill2 a coreo:HardSkill;
+    rdfs:label "Порождающие паттерны: Singleton, Builder, Prototype"@ru;
+    coreo:partOf :cs_sub2.
+:cs_sub2_skill3 a coreo:HardSkill;
+    rdfs:label "Структурные паттерны: Adapter, Decorator, Facade"@ru;
+    coreo:partOf :cs_sub2.
+:cs_sub2_skill4 a coreo:HardSkill;
+    rdfs:label "Поведенческие паттерны: Strategy, Command, Iterator"@ru;
+    coreo:partOf :cs_sub2.
+:cs_sub2_skill5 a coreo:HardSkill;
+    rdfs:label "Паттерны корпоративных приложений: Unit of Work, Identity Map"@ru;
+    coreo:partOf :cs_sub2.
+:cs_sub2_skill6 a coreo:SoftSkill;
+    rdfs:label "Абстрактное мышление и применение известных шаблонов"@ru;
+    coreo:partOf :cs_sub2.
+:csharp a coreo:CompetenceCategory;
+    rdfs:label "Язык C# и .NET"@ru.
+:csharp_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Основы C#"@ru;
+    coreo:partOf :csharp.
+:csharp_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "Синтаксис: переменные, операторы, управляющие конструкции"@ru;
+    coreo:partOf :csharp_sub0.
+:csharp_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "ООП: создание классов, инкапсуляция, наследование, полиморфизм"@ru;
+    coreo:partOf :csharp_sub0.
+:csharp_sub0_skill2 a coreo:HardSkill;
+    rdfs:label "Работа с исключениями (try-catch-finally, пользовательские исключения)"@ru;
+    coreo:partOf :csharp_sub0.
+:csharp_sub0_skill3 a coreo:SoftSkill;
+    rdfs:label "Читаемость кода (соглашения об именовании)"@ru;
+    coreo:partOf :csharp_sub0.
+:csharp_sub1 a coreo:CompetenceSubcategory;
+    rdfs:label "Продвинутые возможности C#"@ru;
+    coreo:partOf :csharp.
+:csharp_sub1_skill0 a coreo:HardSkill;
+    rdfs:label "LINQ (запросы и методы расширений)"@ru;
+    coreo:partOf :csharp_sub1.
+:csharp_sub1_skill1 a coreo:HardSkill;
+    rdfs:label "Асинхронность (async/await, Task)"@ru;
+    coreo:partOf :csharp_sub1.
+:csharp_sub1_skill2 a coreo:HardSkill;
+    rdfs:label "Рефлексия, атрибуты"@ru;
+    coreo:partOf :csharp_sub1.
+:csharp_sub1_skill3 a coreo:HardSkill;
+    rdfs:label "Generics, ковариантность и контравариантность"@ru;
+    coreo:partOf :csharp_sub1.
+:csharp_sub1_skill4 a coreo:SoftSkill;
+    rdfs:label "Оптимизация (память, производительность)"@ru;
+    coreo:partOf :csharp_sub1.
+:csharp_sub2 a coreo:CompetenceSubcategory;
+    rdfs:label "GUI (WPF / Avalonia)"@ru;
+    coreo:partOf :csharp.
+:csharp_sub2_skill0 a coreo:HardSkill;
+    rdfs:label "XAML: базовая разметка, панели компоновки (StackPanel, Grid)"@ru;
+    coreo:partOf :csharp_sub2.
+:csharp_sub2_skill1 a coreo:HardSkill;
+    rdfs:label "Data Binding (привязка к свойствам ViewModel, режимы)"@ru;
+    coreo:partOf :csharp_sub2.
+:csharp_sub2_skill2 a coreo:HardSkill;
+    rdfs:label "Команды (ICommand, ReactiveCommand)"@ru;
+    coreo:partOf :csharp_sub2.
+:csharp_sub2_skill3 a coreo:HardSkill;
+    rdfs:label "Стили, триггеры, шаблоны элементов управления"@ru;
+    coreo:partOf :csharp_sub2.
+:csharp_sub2_skill4 a coreo:HardSkill;
+    rdfs:label "Навигация между окнами/страницами"@ru;
+    coreo:partOf :csharp_sub2.
+:csharp_sub2_skill5 a coreo:SoftSkill;
+    rdfs:label "UX-мышление и разделение логики (MVVM)"@ru;
+    coreo:partOf :csharp_sub2.
+:csharp_sub3 a coreo:CompetenceSubcategory;
+    rdfs:label "Доступ к данным в .NET"@ru;
+    coreo:partOf :csharp.
+:csharp_sub3_skill0 a coreo:HardSkill;
+    rdfs:label "ADO.NET (SqlConnection, SqlCommand, SqlDataReader)"@ru;
+    coreo:partOf :csharp_sub3.
+:csharp_sub3_skill1 a coreo:HardSkill;
+    rdfs:label "Dapper (установка, Query<T>, Execute)"@ru;
+    coreo:partOf :csharp_sub3.
+:csharp_sub3_skill2 a coreo:HardSkill;
+    rdfs:label "Entity Framework Core (DbContext, миграции, LINQ-запросы)"@ru;
+    coreo:partOf :csharp_sub3.
+:csharp_sub3_skill3 a coreo:SoftSkill;
+    rdfs:label "Выбор инструмента под задачу (Dapper vs EF Core)"@ru;
+    coreo:partOf :csharp_sub3.
+:csharp_sub4 a coreo:CompetenceSubcategory;
+    rdfs:label "Тестирование"@ru;
+    coreo:partOf :csharp.
+:csharp_sub4_skill0 a coreo:HardSkill;
+    rdfs:label "Написание юнит-тестов (xUnit/NUnit)"@ru;
+    coreo:partOf :csharp_sub4.
+:csharp_sub4_skill1 a coreo:HardSkill;
+    rdfs:label "Использование mock-объектов (Moq, NSubstitute)"@ru;
+    coreo:partOf :csharp_sub4.
+:csharp_sub4_skill2 a coreo:HardSkill;
+    rdfs:label "Интеграционное тестирование"@ru;
+    coreo:partOf :csharp_sub4.
+:csharp_sub4_skill3 a coreo:SoftSkill;
+    rdfs:label "TDD (разработка через тестирование)"@ru;
+    coreo:partOf :csharp_sub4.
+:csharp_sub5 a coreo:CompetenceSubcategory;
+    rdfs:label "ASP.NET Core"@ru;
+    coreo:partOf :csharp.
+:csharp_sub5_skill0 a coreo:HardSkill;
+    rdfs:label "Создание Web API (контроллеры, маршрутизация)"@ru;
+    coreo:partOf :csharp_sub5.
+:csharp_sub5_skill1 a coreo:HardSkill;
+    rdfs:label "Middleware и конвейер обработки запросов"@ru;
+    coreo:partOf :csharp_sub5.
+:csharp_sub5_skill2 a coreo:HardSkill;
+    rdfs:label "Внедрение зависимостей (DI)"@ru;
+    coreo:partOf :csharp_sub5.
+:csharp_sub5_skill3 a coreo:HardSkill;
+    rdfs:label "Аутентификация и авторизация (JWT, Identity)"@ru;
+    coreo:partOf :csharp_sub5.
+:csharp_sub5_skill4 a coreo:HardSkill;
+    rdfs:label "Работа с базами данных через EF Core в ASP.NET"@ru;
+    coreo:partOf :csharp_sub5.
+:csharp_sub5_skill5 a coreo:HardSkill;
+    rdfs:label "Razor Pages / MVC"@ru;
+    coreo:partOf :csharp_sub5.
+:csharp_sub6 a coreo:CompetenceSubcategory;
+    rdfs:label "Документирование в C#"@ru;
+    coreo:partOf :csharp.
+:csharp_sub6_skill0 a coreo:HardSkill;
+    rdfs:label "XML-комментарии для публичных API (summary, param, returns)"@ru;
+    coreo:partOf :csharp_sub6.
+:csharp_sub6_skill1 a coreo:HardSkill;
+    rdfs:label "Генерация документации (DocFX)"@ru;
+    coreo:partOf :csharp_sub6.
+:csharp_sub6_skill2 a coreo:HardSkill;
+    rdfs:label "Документирование REST API (Swagger/OpenAPI в ASP.NET Core)"@ru;
+    coreo:partOf :csharp_sub6.
+:sql a coreo:CompetenceCategory;
+    rdfs:label "Базы данных: SQL & СУБД"@ru.
+:sql_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Основы SQL"@ru;
+    coreo:partOf :sql.
+:sql_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "DDL (CREATE/ALTER TABLE, ключи)"@ru;
+    coreo:partOf :sql_sub0.
+:sql_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)"@ru;
+    coreo:partOf :sql_sub0.
+:sql_sub0_skill2 a coreo:HardSkill;
+    rdfs:label "Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)"@ru;
+    coreo:partOf :sql_sub0.
+:sql_sub0_skill3 a coreo:HardSkill;
+    rdfs:label "Индексы, анализ плана запроса (EXPLAIN)"@ru;
+    coreo:partOf :sql_sub0.
+:sql_sub0_skill4 a coreo:SoftSkill;
+    rdfs:label "Мышление множествами (составление запросов)"@ru;
+    coreo:partOf :sql_sub0.
+:sql_sub1 a coreo:CompetenceSubcategory;
+    rdfs:label "PostgreSQL"@ru;
+    coreo:partOf :sql.
+:sql_sub1_skill0 a coreo:HardSkill;
+    rdfs:label "Особенности типов данных (JSONB, массивы)"@ru;
+    coreo:partOf :sql_sub1.
+:sql_sub1_skill1 a coreo:HardSkill;
+    rdfs:label "Полнотекстовый поиск (tsvector, tsquery)"@ru;
+    coreo:partOf :sql_sub1.
+:sql_sub1_skill2 a coreo:HardSkill;
+    rdfs:label "Расширения (PostGIS, pgcrypto)"@ru;
+    coreo:partOf :sql_sub1.
+:sql_sub1_skill3 a coreo:HardSkill;
+    rdfs:label "Настройка производительности (VACUUM, ANALYZE)"@ru;
+    coreo:partOf :sql_sub1.
+:sql_sub1_skill4 a coreo:SoftSkill;
+    rdfs:label "Документирование схемы (комментарии к таблицам и колонкам)"@ru;
+    coreo:partOf :sql_sub1.
+:sql_sub2 a coreo:CompetenceSubcategory;
+    rdfs:label "MySQL"@ru;
+    coreo:partOf :sql.
+:sql_sub2_skill0 a coreo:HardSkill;
+    rdfs:label "Особенности хранения (InnoDB vs MyISAM)"@ru;
+    coreo:partOf :sql_sub2.
+:sql_sub2_skill1 a coreo:HardSkill;
+    rdfs:label "Репликация и партиционирование"@ru;
+    coreo:partOf :sql_sub2.
+:sql_sub2_skill2 a coreo:HardSkill;
+    rdfs:label "Оптимизация запросов (EXPLAIN в MySQL)"@ru;
+    coreo:partOf :sql_sub2.
+:sql_sub2_skill3 a coreo:SoftSkill;
+    rdfs:label "Документирование схемы"@ru;
+    coreo:partOf :sql_sub2.
+:sql_sub3 a coreo:CompetenceSubcategory;
+    rdfs:label "SQLite"@ru;
+    coreo:partOf :sql.
+:sql_sub3_skill0 a coreo:HardSkill;
+    rdfs:label "Встраиваемая БД, особенности использования"@ru;
+    coreo:partOf :sql_sub3.
+:sql_sub3_skill1 a coreo:HardSkill;
+    rdfs:label "Работа с SQLite в мобильных и десктопных приложениях"@ru;
+    coreo:partOf :sql_sub3.
+:web a coreo:CompetenceCategory;
+    rdfs:label "Веб-разработка"@ru.
+:web_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "HTML/CSS"@ru;
+    coreo:partOf :web.
+:web_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "Семантическая вёрстка, доступность"@ru;
+    coreo:partOf :web_sub0.
+:web_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "Flexbox и Grid Layout"@ru;
+    coreo:partOf :web_sub0.
+:web_sub0_skill2 a coreo:HardSkill;
+    rdfs:label "Адаптивная вёрстка (медиа-запросы)"@ru;
+    coreo:partOf :web_sub0.
+:web_sub0_skill3 a coreo:HardSkill;
+    rdfs:label "Препроцессоры (Sass, Less)"@ru;
+    coreo:partOf :web_sub0.
+:web_sub1 a coreo:CompetenceSubcategory;
+    rdfs:label "JavaScript"@ru;
+    coreo:partOf :web.
+:web_sub1_skill0 a coreo:HardSkill;
+    rdfs:label "Основы синтаксиса, типы данных, функции"@ru;
+    coreo:partOf :web_sub1.
+:web_sub1_skill1 a coreo:HardSkill;
+    rdfs:label "DOM-манипуляции и события"@ru;
+    coreo:partOf :web_sub1.
+:web_sub1_skill2 a coreo:HardSkill;
+    rdfs:label "Асинхронность (Promise, async/await)"@ru;
+    coreo:partOf :web_sub1.
+:web_sub1_skill3 a coreo:HardSkill;
+    rdfs:label "Fetch API и работа с REST"@ru;
+    coreo:partOf :web_sub1.
+:web_sub1_skill4 a coreo:HardSkill;
+    rdfs:label "Модули (ES6 modules)"@ru;
+    coreo:partOf :web_sub1.
+:web_sub1_skill5 a coreo:HardSkill;
+    rdfs:label "Документирование JavaScript (JSDoc: @param, @returns, @throws)"@ru;
+    coreo:partOf :web_sub1.
+:web_sub1_skill6 a coreo:HardSkill;
+    rdfs:label "Генерация документации (JSDoc, TypeDoc для TypeScript)"@ru;
+    coreo:partOf :web_sub1.
+:web_sub2 a coreo:CompetenceSubcategory;
+    rdfs:label "PHP"@ru;
+    coreo:partOf :web.
+:web_sub2_skill0 a coreo:HardSkill;
+    rdfs:label "Основы синтаксиса, работа с формами"@ru;
+    coreo:partOf :web_sub2.
+:web_sub2_skill1 a coreo:HardSkill;
+    rdfs:label "Сессии и куки"@ru;
+    coreo:partOf :web_sub2.
+:web_sub2_skill2 a coreo:HardSkill;
+    rdfs:label "Подключение к БД (MySQLi, PDO)"@ru;
+    coreo:partOf :web_sub2.
+:web_sub2_skill3 a coreo:HardSkill;
+    rdfs:label "Основы ООП в PHP"@ru;
+    coreo:partOf :web_sub2.
+:web_sub2_skill4 a coreo:HardSkill;
+    rdfs:label "Документирование PHP (PHPDoc: @param, @return, @throws)"@ru;
+    coreo:partOf :web_sub2.
+:web_sub2_skill5 a coreo:HardSkill;
+    rdfs:label "Инструменты: phpDocumentor, Doxygen"@ru;
+    coreo:partOf :web_sub2.
+:mobile a coreo:CompetenceCategory;
+    rdfs:label "Мобильная разработка"@ru.
+:mobile_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Android (Kotlin)"@ru;
+    coreo:partOf :mobile.
+:mobile_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "Основы языка Kotlin (синтаксис, null safety, корутины)"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "Android SDK (Activity, Fragment, жизненный цикл)"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill2 a coreo:HardSkill;
+    rdfs:label "Jetpack Compose (composable-функции, state, модификаторы)"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill3 a coreo:HardSkill;
+    rdfs:label "Навигация в Compose"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill4 a coreo:HardSkill;
+    rdfs:label "Архитектурные компоненты (ViewModel, LiveData/Flow)"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill5 a coreo:HardSkill;
+    rdfs:label "Работа с сетью (Retrofit, Kotlin Serialization)"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill6 a coreo:HardSkill;
+    rdfs:label "Базы данных (Room)"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill7 a coreo:HardSkill;
+    rdfs:label "DI (Dagger, Hilt)"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill8 a coreo:HardSkill;
+    rdfs:label "Тестирование на Android"@ru;
+    coreo:partOf :mobile_sub0.
+:mobile_sub0_skill9 a coreo:HardSkill;
+    rdfs:label "Документирование Kotlin (KDoc, Dokka)"@ru;
+    coreo:partOf :mobile_sub0.
+:docker a coreo:CompetenceCategory;
+    rdfs:label "Контейнеризация"@ru.
+:docker_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Docker"@ru;
+    coreo:partOf :docker.
+:docker_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "Основные команды (docker run, build, push)"@ru;
+    coreo:partOf :docker_sub0.
+:docker_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "Создание Dockerfile, оптимизация слоёв"@ru;
+    coreo:partOf :docker_sub0.
+:docker_sub0_skill2 a coreo:HardSkill;
+    rdfs:label "Docker Compose (запуск многоконтейнерных приложений)"@ru;
+    coreo:partOf :docker_sub0.
+:docker_sub0_skill3 a coreo:HardSkill;
+    rdfs:label "Сетевое взаимодействие контейнеров"@ru;
+    coreo:partOf :docker_sub0.
+:docker_sub0_skill4 a coreo:HardSkill;
+    rdfs:label "Volumes и работа с данными"@ru;
+    coreo:partOf :docker_sub0.
+:docker_sub0_skill5 a coreo:SoftSkill;
+    rdfs:label "CI/CD интеграция (GitLab CI, GitHub Actions)"@ru;
+    coreo:partOf :docker_sub0.
+:docker_sub0_skill6 a coreo:SoftSkill;
+    rdfs:label "Документирование Docker-образов (docker inspect, labels)"@ru;
+    coreo:partOf :docker_sub0.
+:git a coreo:CompetenceCategory;
+    rdfs:label "Инструменты: Git"@ru.
+:git_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Базовые команды"@ru;
+    coreo:partOf :git.
+:git_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "init, clone, add, commit, push, pull"@ru;
+    coreo:partOf :git_sub0.
+:git_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "Ветвление и слияние (branch, merge, разрешение конфликтов)"@ru;
+    coreo:partOf :git_sub0.
+:git_sub0_skill2 a coreo:SoftSkill;
+    rdfs:label "Осмысленные коммиты (понятные сообщения)"@ru;
+    coreo:partOf :git_sub0.
+:git_sub0_skill3 a coreo:SoftSkill;
+    rdfs:label "Командная работа (работа с общим репозиторием, pull requests)"@ru;
+    coreo:partOf :git_sub0.
+:team a coreo:CompetenceCategory;
+    rdfs:label "Взаимодействие в команде"@ru.
+:team_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Навыки коммуникации"@ru;
+    coreo:partOf :team.
+:team_sub0_skill0 a coreo:SoftSkill;
+    rdfs:label "Участие в код-ревью: давать конструктивную обратную связь"@ru;
+    coreo:partOf :team_sub0.
+:team_sub0_skill1 a coreo:SoftSkill;
+    rdfs:label "Участие в код-ревью: принимать замечания и анализировать"@ru;
+    coreo:partOf :team_sub0.
+:team_sub0_skill2 a coreo:SoftSkill;
+    rdfs:label "Совместная разработка в Git (ветки, мерж-реквесты)"@ru;
+    coreo:partOf :team_sub0.
+:team_sub0_skill3 a coreo:SoftSkill;
+    rdfs:label "Ясная устная и письменная коммуникация"@ru;
+    coreo:partOf :team_sub0.
+:team_sub0_skill4 a coreo:SoftSkill;
+    rdfs:label "Работа по Agile/Scrum: роли, стендапы, оценка задач"@ru;
+    coreo:partOf :team_sub0.
+:team_sub0_skill5 a coreo:SoftSkill;
+    rdfs:label "Менторство и обмен знаниями"@ru;
+    coreo:partOf :team_sub0.
+:prof a coreo:CompetenceCategory;
+    rdfs:label "Профессиональные практики"@ru.
+:prof_sub0 a coreo:CompetenceSubcategory;
+    rdfs:label "Общие практики"@ru;
+    coreo:partOf :prof.
+:prof_sub0_skill0 a coreo:HardSkill;
+    rdfs:label "Отладка (точки останова, пошаговое выполнение)"@ru;
+    coreo:partOf :prof_sub0.
+:prof_sub0_skill1 a coreo:HardSkill;
+    rdfs:label "Профилирование и оптимизация производительности"@ru;
+    coreo:partOf :prof_sub0.
+:prof_sub0_skill2 a coreo:SoftSkill;
+    rdfs:label "Проактивность (самостоятельный поиск и исправление ошибок)"@ru;
+    coreo:partOf :prof_sub0.
+:prof_sub0_skill3 a coreo:SoftSkill;
+    rdfs:label "Восприятие обратной связи и работа над собой"@ru;
+    coreo:partOf :prof_sub0.
+:prof_sub0_skill4 a coreo:SoftSkill;
+    rdfs:label "Документирование кода (общие принципы) и создание инструкций"@ru;
+    coreo:partOf :prof_sub0.
