@@ -13,28 +13,40 @@
 										<xs:element name="subcategories">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="subcategory" maxOccurs="unbounded">
+													<xs:element name="subcategory"
+													            maxOccurs="unbounded">
 														<xs:complexType>
 															<xs:sequence>
 																<xs:element name="skills">
 																	<xs:complexType>
 																		<xs:sequence>
-																			<xs:element name="skill" maxOccurs="unbounded">
+																			<xs:element name="skill"
+																			            maxOccurs="unbounded">
 																				<xs:complexType>
 																					<xs:sequence>
-																						<xs:element name="description" type="xs:string"/>
-																						<xs:element name="type">
+																						<xs:element
+																							name="description"
+																							type="xs:string"/>
+																						<xs:element
+																							name="type">
 																							<xs:simpleType>
-																								<xs:restriction base="xs:string">
-																									<xs:enumeration value="hard"/>
-																									<xs:enumeration value="soft"/>
+																								<xs:restriction
+																									base="xs:string">
+																									<xs:enumeration
+																										value="hard"/>
+																									<xs:enumeration
+																										value="soft"/>
 																								</xs:restriction>
 																							</xs:simpleType>
 																						</xs:element>
-																						<xs:element name="fgos_codes">
+																						<xs:element
+																							name="fgos_codes">
 																							<xs:complexType>
 																								<xs:sequence>
-																									<xs:element name="code" type="fgosCodeType" maxOccurs="unbounded"/>
+																									<xs:element
+																										name="code"
+																										type="fgosCodeType"
+																										maxOccurs="unbounded"/>
 																								</xs:sequence>
 																							</xs:complexType>
 																						</xs:element>
@@ -45,7 +57,9 @@
 																	</xs:complexType>
 																</xs:element>
 															</xs:sequence>
-															<xs:attribute name="name" type="xs:string" use="required"/>
+															<xs:attribute name="name"
+															              type="xs:string"
+															              use="required"/>
 														</xs:complexType>
 													</xs:element>
 												</xs:sequence>

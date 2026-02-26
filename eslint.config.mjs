@@ -41,8 +41,8 @@ export default [
 	{
 		files: ['src/client/**/*.js'],
 		rules: {
-			'no-console': 'warn'
-		}
+			'no-console': 'warn',
+		},
 	},
 	prettierConfig,
 ];

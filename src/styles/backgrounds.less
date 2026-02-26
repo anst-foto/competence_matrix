@@ -2,35 +2,33 @@
 
 // Миксин для узора soft-скиллов
 .soft-pattern() {
-  background-image: repeating-linear-gradient(
-    45deg,
+    background-image: repeating-linear-gradient(45deg,
     rgba(0, 0, 0, 3%) 0,
     rgba(0, 0, 0, 3%) 4px,
     transparent 4px,
-    transparent 8px
-  );
+    transparent 8px);
 }
 
 // Миксин для генерации классов подкатегорий и навыков
 .generate-category(@cat-key, @base-color, @count) {
-  .loop(@i) when (@i > 0) {
-    @subcat-color: spin(@base-color, (@i - 1) * @spin-step);
-    @hard-color: darken(@subcat-color, @hard-darken);
-    @soft-color: lighten(desaturate(@subcat-color, @soft-desaturate), @soft-lighten);
+    .loop(@i) when (@i > 0) {
+        @subcat-color: spin(@base-color, (@i - 1) * @spin-step);
+        @hard-color: darken(@subcat-color, @hard-darken);
+        @soft-color: lighten(desaturate(@subcat-color, @soft-desaturate), @soft-lighten);
 
-    .subcat-@{cat-key}@{i} {
-      background-color: @subcat-color;
+        .subcat-@{cat-key}@{i} {
+            background-color: @subcat-color;
+        }
+        .hard-@{cat-key}@{i} {
+            background-color: @hard-color;
+        }
+        .soft-@{cat-key}@{i} {
+            background-color: @soft-color;
+            .soft-pattern();
+        }
+        .loop(@i - 1);
     }
-    .hard-@{cat-key}@{i} {
-      background-color: @hard-color;
-    }
-    .soft-@{cat-key}@{i} {
-      background-color: @soft-color;
-      .soft-pattern();
-    }
-    .loop(@i - 1);
-  }
-  .loop(@count);
+    .loop(@count);
 }
 
 // Генерация для всех категорий
@@ -46,37 +44,37 @@
 
 // Классы для ячеек категорий (используют базовый цвет)
 .cat-cs {
-  background-color: @cs-base;
+    background-color: @cs-base;
 }
 
 .cat-csharp {
-  background-color: @csharp-base;
+    background-color: @csharp-base;
 }
 
 .cat-sql {
-  background-color: @sql-base;
+    background-color: @sql-base;
 }
 
 .cat-web {
-  background-color: @web-base;
+    background-color: @web-base;
 }
 
 .cat-mobile {
-  background-color: @mobile-base;
+    background-color: @mobile-base;
 }
 
 .cat-docker {
-  background-color: @docker-base;
+    background-color: @docker-base;
 }
 
 .cat-git {
-  background-color: @git-base;
+    background-color: @git-base;
 }
 
 .cat-team {
-  background-color: @team-base;
+    background-color: @team-base;
 }
 
 .cat-prof {
-  background-color: @prof-base;
+    background-color: @prof-base;
 }

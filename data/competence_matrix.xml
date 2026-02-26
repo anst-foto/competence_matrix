@@ -8,7 +8,9 @@
 				<subcategory name="Структуры данных">
 					<skills>
 						<skill>
-							<description>Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения</description>
+							<description>Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание
+								отличий и применения
+							</description>
 							<type>hard</type>
 							<fgos_codes>
 								<code>ПК 1.2</code>
@@ -95,7 +97,8 @@
 							</fgos_codes>
 						</skill>
 						<skill>
-							<description>Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)</description>
+							<description>Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)
+							</description>
 							<type>hard</type>
 							<fgos_codes>
 								<code>ПК 1.2</code>
@@ -126,7 +129,8 @@
 							</fgos_codes>
 						</skill>
 						<skill>
-							<description>Паттерны корпоративных приложений: Unit of Work, Identity Map</description>
+							<description>Паттерны корпоративных приложений: Unit of Work, Identity Map
+							</description>
 							<type>hard</type>
 							<fgos_codes>
 								<code>ПК 2.1</code>
@@ -157,7 +161,8 @@
 							</fgos_codes>
 						</skill>
 						<skill>
-							<description>ООП: создание классов, инкапсуляция, наследование, полиморфизм</description>
+							<description>ООП: создание классов, инкапсуляция, наследование, полиморфизм
+							</description>
 							<type>hard</type>
 							<fgos_codes>
 								<code>ПК 1.2</code>
@@ -165,7 +170,8 @@
 							</fgos_codes>
 						</skill>
 						<skill>
-							<description>Работа с исключениями (try-catch-finally, пользовательские исключения)</description>
+							<description>Работа с исключениями (try-catch-finally, пользовательские исключения)
+							</description>
 							<type>hard</type>
 							<fgos_codes>
 								<code>ПК 1.2</code>
@@ -227,7 +233,8 @@
 				<subcategory name="GUI (WPF / Avalonia)">
 					<skills>
 						<skill>
-							<description>XAML: базовая разметка, панели компоновки (StackPanel, Grid)</description>
+							<description>XAML: базовая разметка, панели компоновки (StackPanel, Grid)
+							</description>
 							<type>hard</type>
 							<fgos_codes>
 								<code>ПК 1.2</code>
@@ -652,7 +659,8 @@
 							</fgos_codes>
 						</skill>
 						<skill>
-							<description>Документирование JavaScript (JSDoc: @param, @returns, @throws)</description>
+							<description>Документирование JavaScript (JSDoc: @param, @returns, @throws)
+							</description>
 							<type>hard</type>
 							<fgos_codes>
 								<code>ПК 1.6</code>
@@ -902,7 +910,8 @@
 							</fgos_codes>
 						</skill>
 						<skill>
-							<description>Командная работа (работа с общим репозиторием, pull requests)</description>
+							<description>Командная работа (работа с общим репозиторием, pull requests)
+							</description>
 							<type>soft</type>
 							<fgos_codes>
 								<code>ОК 04</code>
@@ -1005,7 +1014,8 @@
 							</fgos_codes>
 						</skill>
 						<skill>
-							<description>Документирование кода (общие принципы) и создание инструкций</description>
+							<description>Документирование кода (общие принципы) и создание инструкций
+							</description>
 							<type>soft</type>
 							<fgos_codes>
 								<code>ОК 09</code>
