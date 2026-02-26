@@ -1,10 +1,11 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://example.com/competency-matrix-schema.json",
-	"title": "Competency Matrix Schema",
-	"description": "Schema for competency matrix of a software developer",
+	"$id": "https://example.com/competence-matrix-fgos.schema.json",
+	"title": "Competency Matrix with FGOS Links",
+	"description": "Schema for a competency matrix of a software developer with links to FGOS competencies",
 	"type": "object",
 	"required": ["version", "categories"],
+	"additionalProperties": false,
 	"properties": {
 		"version": {
 			"type": "string",
@@ -17,6 +18,7 @@
 			"items": {
 				"type": "object",
 				"required": ["name", "key", "subcategories"],
+				"additionalProperties": false,
 				"properties": {
 					"name": {
 						"type": "string",
@@ -33,6 +35,7 @@
 						"items": {
 							"type": "object",
 							"required": ["name", "skills"],
+							"additionalProperties": false,
 							"properties": {
 								"name": {
 									"type": "string",
@@ -43,7 +46,8 @@
 									"description": "List of skills in this subcategory",
 									"items": {
 										"type": "object",
-										"required": ["description", "type"],
+										"required": ["description", "type", "fgos_codes"],
+										"additionalProperties": false,
 										"properties": {
 											"description": {
 												"type": "string",
@@ -53,19 +57,26 @@
 												"type": "string",
 												"description": "Type of skill: hard or soft",
 												"enum": ["hard", "soft"]
+											},
+											"fgos_codes": {
+												"type": "array",
+												"description": "List of FGOS competency codes associated with this skill",
+												"items": {
+													"type": "string",
+													"pattern": "^(ОК|ПК) \\d+(\\.\\d+)?$",
+													"description": "FGOS competency code (e.g., 'ОК 01', 'ПК 1.2')"
+												},
+												"minItems": 1,
+												"uniqueItems": true
 											}
-										},
-										"additionalProperties": false
+										}
 									}
 								}
-							},
-							"additionalProperties": false
+							}
 						}
 					}
-				},
-				"additionalProperties": false
+				}
 			}
 		}
-	},
-	"additionalProperties": false
+	}
 }

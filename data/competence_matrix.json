@@ -1,5 +1,5 @@
 {
-	"version": "0.1",
+	"version": "0.2",
 	"categories": [
 		{
 			"name": "Computer Science",
@@ -10,23 +10,28 @@
 					"skills": [
 						{
 							"description": "Базовые структуры: массивы, списки, стек, очередь, словарь. Понимание отличий и применения",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.5"]
 						},
 						{
 							"description": "Понимание принципа работы хеш-таблиц и коллизий",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Базовое понимание деревьев (для иерархий, индексов БД)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Аргументированный выбор структуры данных под задачу",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ОК 02"]
 						},
 						{
 							"description": "Анализ сложности (время доступа, использование памяти)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ПК 1.5"]
 						}
 					]
 				},
@@ -35,19 +40,23 @@
 					"skills": [
 						{
 							"description": "Линейный и бинарный поиск. Понимание основных сортировок",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.5"]
 						},
 						{
 							"description": "Понимание нотации Big O (O(1), O(n), O(log n), O(n²))",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Оптимизационное мышление (оценка эффективности)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ПК 1.5"]
 						},
 						{
 							"description": "Декомпозиция задачи на алгоритмические шаги",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ОК 02"]
 						}
 					]
 				},
@@ -56,31 +65,38 @@
 					"skills": [
 						{
 							"description": "Понимание и применение принципов SOLID",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.5"]
 						},
 						{
 							"description": "Знание базовых паттернов (Фабрика, Репозиторий, Наблюдатель)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Порождающие паттерны: Singleton, Builder, Prototype",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Структурные паттерны: Adapter, Decorator, Facade",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Поведенческие паттерны: Strategy, Command, Iterator",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Паттерны корпоративных приложений: Unit of Work, Identity Map",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 2.1", "ПК 2.2"]
 						},
 						{
 							"description": "Абстрактное мышление и применение известных шаблонов",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ОК 02"]
 						}
 					]
 				}
@@ -95,19 +111,23 @@
 					"skills": [
 						{
 							"description": "Синтаксис: переменные, операторы, управляющие конструкции",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "ООП: создание классов, инкапсуляция, наследование, полиморфизм",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.5"]
 						},
 						{
 							"description": "Работа с исключениями (try-catch-finally, пользовательские исключения)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.3"]
 						},
 						{
 							"description": "Читаемость кода (соглашения об именовании)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 05", "ПК 2.5"]
 						}
 					]
 				},
@@ -116,23 +136,28 @@
 					"skills": [
 						{
 							"description": "LINQ (запросы и методы расширений)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.5"]
 						},
 						{
 							"description": "Асинхронность (async/await, Task)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.3"]
 						},
 						{
 							"description": "Рефлексия, атрибуты",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Generics, ковариантность и контравариантность",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Оптимизация (память, производительность)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ПК 1.5"]
 						}
 					]
 				},
@@ -141,27 +166,33 @@
 					"skills": [
 						{
 							"description": "XAML: базовая разметка, панели компоновки (StackPanel, Grid)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Data Binding (привязка к свойствам ViewModel, режимы)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Команды (ICommand, ReactiveCommand)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Стили, триггеры, шаблоны элементов управления",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.5"]
 						},
 						{
 							"description": "Навигация между окнами/страницами",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "UX-мышление и разделение логики (MVVM)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ОК 02"]
 						}
 					]
 				},
@@ -170,19 +201,23 @@
 					"skills": [
 						{
 							"description": "ADO.NET (SqlConnection, SqlCommand, SqlDataReader)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Dapper (установка, Query<T>, Execute)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.5"]
 						},
 						{
 							"description": "Entity Framework Core (DbContext, миграции, LINQ-запросы)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Выбор инструмента под задачу (Dapper vs EF Core)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ОК 02"]
 						}
 					]
 				},
@@ -191,19 +226,23 @@
 					"skills": [
 						{
 							"description": "Написание юнит-тестов (xUnit/NUnit)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.4", "ПК 2.4"]
 						},
 						{
 							"description": "Использование mock-объектов (Moq, NSubstitute)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.4", "ПК 2.4"]
 						},
 						{
 							"description": "Интеграционное тестирование",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.4", "ПК 2.4"]
 						},
 						{
 							"description": "TDD (разработка через тестирование)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ПК 1.4"]
 						}
 					]
 				},
@@ -212,27 +251,33 @@
 					"skills": [
 						{
 							"description": "Создание Web API (контроллеры, маршрутизация)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Middleware и конвейер обработки запросов",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Внедрение зависимостей (DI)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Аутентификация и авторизация (JWT, Identity)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.4"]
 						},
 						{
 							"description": "Работа с базами данных через EF Core в ASP.NET",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Razor Pages / MVC",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						}
 					]
 				},
@@ -241,15 +286,18 @@
 					"skills": [
 						{
 							"description": "XML-комментарии для публичных API (summary, param, returns)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ОК 09"]
 						},
 						{
 							"description": "Генерация документации (DocFX)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ОК 02"]
 						},
 						{
 							"description": "Документирование REST API (Swagger/OpenAPI в ASP.NET Core)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ПК 2.1"]
 						}
 					]
 				}
@@ -264,23 +312,28 @@
 					"skills": [
 						{
 							"description": "DDL (CREATE/ALTER TABLE, ключи)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "DML (SELECT с JOIN, GROUP BY; INSERT, UPDATE, DELETE)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Транзакции (ACID, BEGIN, COMMIT, ROLLBACK)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Индексы, анализ плана запроса (EXPLAIN)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.5", "ПК 4.2"]
 						},
 						{
 							"description": "Мышление множествами (составление запросов)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ОК 02"]
 						}
 					]
 				},
@@ -289,23 +342,28 @@
 					"skills": [
 						{
 							"description": "Особенности типов данных (JSONB, массивы)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Полнотекстовый поиск (tsvector, tsquery)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Расширения (PostGIS, pgcrypto)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Настройка производительности (VACUUM, ANALYZE)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 4.2", "ПК 1.5"]
 						},
 						{
 							"description": "Документирование схемы (комментарии к таблицам и колонкам)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 09", "ПК 1.6"]
 						}
 					]
 				},
@@ -314,19 +372,23 @@
 					"skills": [
 						{
 							"description": "Особенности хранения (InnoDB vs MyISAM)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Репликация и партиционирование",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Оптимизация запросов (EXPLAIN в MySQL)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.5", "ПК 4.2"]
 						},
 						{
 							"description": "Документирование схемы",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 09", "ПК 1.6"]
 						}
 					]
 				},
@@ -335,11 +397,13 @@
 					"skills": [
 						{
 							"description": "Встраиваемая БД, особенности использования",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Работа с SQLite в мобильных и десктопных приложениях",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.3"]
 						}
 					]
 				}
@@ -354,19 +418,23 @@
 					"skills": [
 						{
 							"description": "Семантическая вёрстка, доступность",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Flexbox и Grid Layout",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Адаптивная вёрстка (медиа-запросы)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Препроцессоры (Sass, Less)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.5"]
 						}
 					]
 				},
@@ -375,31 +443,38 @@
 					"skills": [
 						{
 							"description": "Основы синтаксиса, типы данных, функции",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "DOM-манипуляции и события",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Асинхронность (Promise, async/await)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 1.3"]
 						},
 						{
 							"description": "Fetch API и работа с REST",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Модули (ES6 modules)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Документирование JavaScript (JSDoc: @param, @returns, @throws)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ОК 09"]
 						},
 						{
 							"description": "Генерация документации (JSDoc, TypeDoc для TypeScript)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ОК 02"]
 						}
 					]
 				},
@@ -408,27 +483,33 @@
 					"skills": [
 						{
 							"description": "Основы синтаксиса, работа с формами",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Сессии и куки",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Подключение к БД (MySQLi, PDO)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Основы ООП в PHP",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.5"]
 						},
 						{
 							"description": "Документирование PHP (PHPDoc: @param, @return, @throws)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ОК 09"]
 						},
 						{
 							"description": "Инструменты: phpDocumentor, Doxygen",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ОК 02"]
 						}
 					]
 				}
@@ -443,43 +524,53 @@
 					"skills": [
 						{
 							"description": "Основы языка Kotlin (синтаксис, null safety, корутины)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2"]
 						},
 						{
 							"description": "Android SDK (Activity, Fragment, жизненный цикл)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "Jetpack Compose (composable-функции, state, модификаторы)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Навигация в Compose",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Архитектурные компоненты (ViewModel, LiveData/Flow)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Работа с сетью (Retrofit, Kotlin Serialization)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Базы данных (Room)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 4.1"]
 						},
 						{
 							"description": "DI (Dagger, Hilt)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.1"]
 						},
 						{
 							"description": "Тестирование на Android",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.4", "ПК 2.4"]
 						},
 						{
 							"description": "Документирование Kotlin (KDoc, Dokka)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.6", "ОК 09"]
 						}
 					]
 				}
@@ -494,31 +585,38 @@
 					"skills": [
 						{
 							"description": "Основные команды (docker run, build, push)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 4.1", "ПК 4.2"]
 						},
 						{
 							"description": "Создание Dockerfile, оптимизация слоёв",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 4.1", "ПК 1.5"]
 						},
 						{
 							"description": "Docker Compose (запуск многоконтейнерных приложений)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 4.1", "ПК 2.2"]
 						},
 						{
 							"description": "Сетевое взаимодействие контейнеров",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 4.1", "ПК 2.2"]
 						},
 						{
 							"description": "Volumes и работа с данными",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 4.1", "ПК 4.2"]
 						},
 						{
 							"description": "CI/CD интеграция (GitLab CI, GitHub Actions)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ПК 4.2"]
 						},
 						{
 							"description": "Документирование Docker-образов (docker inspect, labels)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 09", "ПК 1.6"]
 						}
 					]
 				}
@@ -533,19 +631,23 @@
 					"skills": [
 						{
 							"description": "init, clone, add, commit, push, pull",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Ветвление и слияние (branch, merge, разрешение конфликтов)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.2", "ПК 2.2"]
 						},
 						{
 							"description": "Осмысленные коммиты (понятные сообщения)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 05", "ОК 09"]
 						},
 						{
 							"description": "Командная работа (работа с общим репозиторием, pull requests)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 04", "ОК 09"]
 						}
 					]
 				}
@@ -560,27 +662,33 @@
 					"skills": [
 						{
 							"description": "Участие в код-ревью: давать конструктивную обратную связь",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 04", "ОК 05"]
 						},
 						{
 							"description": "Участие в код-ревью: принимать замечания и анализировать",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 04", "ОК 03"]
 						},
 						{
 							"description": "Совместная разработка в Git (ветки, мерж-реквесты)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 04", "ПК 2.2"]
 						},
 						{
 							"description": "Ясная устная и письменная коммуникация",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 05"]
 						},
 						{
 							"description": "Работа по Agile/Scrum: роли, стендапы, оценка задач",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 04", "ОК 01"]
 						},
 						{
 							"description": "Менторство и обмен знаниями",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 04", "ОК 03"]
 						}
 					]
 				}
@@ -595,23 +703,28 @@
 					"skills": [
 						{
 							"description": "Отладка (точки останова, пошаговое выполнение)",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.3", "ПК 2.3"]
 						},
 						{
 							"description": "Профилирование и оптимизация производительности",
-							"type": "hard"
+							"type": "hard",
+							"fgos_codes": ["ПК 1.5", "ПК 4.2"]
 						},
 						{
 							"description": "Проактивность (самостоятельный поиск и исправление ошибок)",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 01", "ОК 02"]
 						},
 						{
 							"description": "Восприятие обратной связи и работа над собой",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 03", "ОК 04"]
 						},
 						{
 							"description": "Документирование кода (общие принципы) и создание инструкций",
-							"type": "soft"
+							"type": "soft",
+							"fgos_codes": ["ОК 09", "ПК 1.6"]
 						}
 					]
 				}
