@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+	<xs:element name="fgos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="competencies">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="competency" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="code" type="fgosCodeType"/>
+										<xs:element name="name" type="xs:string"/>
+										<xs:element name="type">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="general"/>
+													<xs:enumeration value="professional"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="specialty" type="xs:string" use="required"/>
+			<xs:attribute name="level" type="xs:string" use="required"/>
+			<xs:attribute name="standard" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:simpleType name="fgosCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(ОК|ПК) \d+(\.\d+)?"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fgos specialty="09.02.03 Программирование в компьютерных системах"
+      level="СПО"
+      standard="ФГОС СПО 3++"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="fgos_09.02.03.xsd">
+	<competencies>
+		<competency>
+			<code>ОК 01</code>
+			<name>Выбирать способы решения задач профессиональной деятельности применительно к различным контекстам</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 02</code>
+			<name>Использовать современные средства поиска, анализа и интерпретации информации и информационные технологии для выполнения задач профессиональной деятельности</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 03</code>
+			<name>Планировать и реализовывать собственное профессиональное и личностное развитие, предпринимательскую деятельность в профессиональной сфере, использовать знания по финансовой грамотности в различных жизненных ситуациях</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 04</code>
+			<name>Эффективно взаимодействовать и работать в коллективе и команде</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 05</code>
+			<name>Осуществлять устную и письменную коммуникацию на государственном языке Российской Федерации с учетом особенностей социального и культурного контекста</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 06</code>
+			<name>Проявлять гражданско-патриотическую позицию, демонстрировать осознанное поведение на основе традиционных общечеловеческих ценностей, в том числе с учетом гармонизации межнациональных и межрелигиозных отношений, применять стандарты антикоррупционного поведения</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 07</code>
+			<name>Содействовать сохранению окружающей среды, ресурсосбережению, применять знания об изменении климата, принципы бережливого производства, эффективно действовать в чрезвычайных ситуациях</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 08</code>
+			<name>Использовать средства физической культуры для сохранения и укрепления здоровья в процессе профессиональной деятельности и поддержания необходимого уровня физической подготовленности</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ОК 09</code>
+			<name>Пользоваться профессиональной документацией на государственном и иностранном языках</name>
+			<type>general</type>
+		</competency>
+		<competency>
+			<code>ПК 1.1</code>
+			<name>Выполнять разработку спецификаций отдельных компонент</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 1.2</code>
+			<name>Осуществлять разработку кода программного продукта на основе готовых спецификаций на уровне модуля</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 1.3</code>
+			<name>Выполнять отладку программных модулей с использованием специализированных программных средств</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 1.4</code>
+			<name>Выполнять тестирование программных модулей</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 1.5</code>
+			<name>Осуществлять оптимизацию программного кода</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 1.6</code>
+			<name>Разрабатывать компоненты проектной и технической документации с использованием графических языков спецификаций</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 2.1</code>
+			<name>Разрабатывать требования к программным модулям на основе анализа проектной и технической документации</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 2.2</code>
+			<name>Выполнять интеграцию модулей в программное обеспечение</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 2.3</code>
+			<name>Выполнять отладку программного продукта с использованием специализированных программных средств</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 2.4</code>
+			<name>Осуществлять разработку тестовых наборов и тестовых сценариев</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 2.5</code>
+			<name>Производить инспектирование компонент программного продукта на предмет соответствия стандартам кодирования</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 3.1</code>
+			<name>Анализировать проектную и техническую документацию на уровне взаимодействия компонент программного обеспечения</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 3.2</code>
+			<name>Выполнять интеграцию модулей в программное обеспечение</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 3.3</code>
+			<name>Выполнять отладку программного продукта с использованием специализированных программных средств</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 3.4</code>
+			<name>Осуществлять разработку тестовых наборов и тестовых сценариев</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 4.1</code>
+			<name>Осуществлять инсталляцию, настройку и обслуживание программного обеспечения компьютерных систем</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 4.2</code>
+			<name>Осуществлять измерения эксплуатационных характеристик программного обеспечения компьютерных систем</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 4.3</code>
+			<name>Выполнять работы по модификации отдельных компонент программного обеспечения в соответствии с потребностями заказчика</name>
+			<type>professional</type>
+		</competency>
+		<competency>
+			<code>ПК 4.4</code>
+			<name>Обеспечивать защиту программного обеспечения компьютерных систем программными средствами</name>
+			<type>professional</type>
+		</competency>
+	</competencies>
+</fgos>
